@@ -4,21 +4,12 @@ import re
 import os
 from fiona import listlayers
 
-# Función para extraer pares clave:valor de la columna Description y convertirlos en columnas separadas
-def split_description_to_columns(df):
-    def parse_desc(desc):
-        if pd.isnull(desc):
-            return {}
-        # Busca patrones tipo "clave: valor"
-        pairs = re.findall(r'([^:<>\n]+):\s*([^<>\n]+)', desc)
-        return {k.strip(): v.strip() for k, v in pairs}
-
-    desc_dicts = df['Description'].apply(parse_desc)
-    desc_df = pd.DataFrame(desc_dicts.tolist())
-    # Unir zona, descripción separada y geometría (como WKT)
-    df['geometry_wkt'] = df.geometry.apply(lambda g: g.wkt)
-    resultado = pd.concat([df[['Name']], desc_df, df[['geometry_wkt']]], axis=1)
-    return resultado
+# Procesa la columna Description para extraer los campos requeridos
+def parse_desc(desc):
+    if pd.isnull(desc):
+        return {}
+    pairs = re.findall(r'([^:<>\n]+):\s*([^<>\n]+)', desc)
+    return {k.strip(): v.strip() for k, v in pairs}
 
 # Reemplaza o agrega un valor en la descripción según un patrón
 def replace_or_append(pattern, value, desc):
@@ -56,9 +47,24 @@ def update_description(row):
         desc = replace_or_append(r'Frecuencia:\s*[^\n<]+', f'Frecuencia: {frecuencia.group(1).strip()}', desc)
     return desc.strip()
 
-# Importa todas las capas del archivo KML y las une en un solo GeoDataFrame
+columnas_requeridas = [
+    'Código', 'Local', 'Calle', 'Población', 'Tipo de cliente',
+    'Cod. Transporte', 'Transporte', 'Frecuencia',
+    'Kilos Promedio Semanal', 'Latitud', 'Longitud'
+    ]
+# Diccionario para identificar los diferentes tipos de clientes
+tipos_clientes = {
+    'supermercados': 'Supermercados',
+    'foodservice': 'Foodservice',
+    'tradicional': 'Tradicional',
+    'industriales': 'Industriales'
+}
+columns_to_save = ['Name', 'Description', 'geometry']
+max_elements = 2000  # Máximo de elementos por capa
+csv_chunks = []  # Lista para almacenar los DataFrames de cada chunk
 
-kml_file = 'ZRyLocales_Rancagua.kml'
+# Carga el archivo KML y extrae las capas
+kml_file = 'ZRyLocales_Rancagua.kml' # Importa todas las capas del archivo KML y las une en un solo GeoDataFrame
 layers = listlayers(kml_file)
 gdfs = [gpd.read_file(kml_file, driver='KML', layer=layer) for layer in layers]
 mapf_gdf = gpd.GeoDataFrame(pd.concat(gdfs, ignore_index=True), crs="EPSG:4326")
@@ -69,19 +75,6 @@ map_points = mapf_gdf[mapf_gdf.geometry.type == 'Point']
 
 # Extrae el tipo de cliente de la descripción de cada punto
 map_points['tipo_cliente'] = map_points['Description'].apply(get_tipo_cliente)
-
-# Diccionario para identificar los diferentes tipos de clientes
-tipos_clientes = {
-    'supermercados': 'Supermercados',
-    'foodservice': 'Foodservice',
-    'tradicional': 'Tradicional',
-    'industriales': 'Industriales'
-}
-
-columns_to_save = ['Name', 'Description', 'geometry']
-max_elements = 2000  # Máximo de elementos por capa
-
-csv_chunks = []  # Lista para almacenar los DataFrames de cada chunk
 
 # Procesa cada tipo de cliente por separado
 for tipo_key, tipo_val in tipos_clientes.items():
@@ -113,19 +106,8 @@ for tipo_key, tipo_val in tipos_clientes.items():
         )
         # Prepara el chunk para guardar como CSV
         chunk_csv = chunk[columns_to_save].copy()
-        # Procesa la columna Description para extraer los campos requeridos
-        def parse_desc(desc):
-            if pd.isnull(desc):
-                return {}
-            pairs = re.findall(r'([^:<>\n]+):\s*([^<>\n]+)', desc)
-            return {k.strip(): v.strip() for k, v in pairs}
         desc_df = chunk_csv['Description'].apply(parse_desc).apply(pd.Series)
         # Selecciona solo las columnas requeridas para el CSV
-        columnas_requeridas = [
-            'Código', 'Local', 'Calle', 'Población', 'Tipo de cliente',
-            'Cod. Transporte', 'Transporte', 'Frecuencia',
-            'Kilos Promedio Semanal', 'Latitud', 'Longitud'
-        ]
         for col in columnas_requeridas:
             if col not in desc_df.columns:
                 desc_df[col] = None
