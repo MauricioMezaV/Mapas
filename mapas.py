@@ -2,6 +2,7 @@ import geopandas as gpd
 import pandas as pd
 import re
 import os
+from fiona import listlayers
 
 # Función para extraer pares clave:valor de la columna Description y convertirlos en columnas separadas
 def split_description_to_columns(df):
@@ -55,12 +56,12 @@ def update_description(row):
         desc = replace_or_append(r'Frecuencia:\s*[^\n<]+', f'Frecuencia: {frecuencia.group(1).strip()}', desc)
     return desc.strip()
 
-# Importa los archivos KML de las diferentes capas
-map1_gdf = gpd.read_file('Locales Rancagua.kml', driver='KML', layer='Capa 1')
-map2_gdf = gpd.read_file('Locales Rancagua.kml', driver='KML', layer='Capa 2')
-map3_gdf = gpd.read_file('Locales Rancagua.kml', driver='KML', layer='Capa 3')
-# Une todas las capas en un solo GeoDataFrame
-mapf_gdf = gpd.GeoDataFrame(pd.concat([map1_gdf, map2_gdf, map3_gdf], ignore_index=True), crs="EPSG:4326")
+# Importa todas las capas del archivo KML y las une en un solo GeoDataFrame
+
+kml_file = 'ZRyLocales_Rancagua.kml'
+layers = listlayers(kml_file)
+gdfs = [gpd.read_file(kml_file, driver='KML', layer=layer) for layer in layers]
+mapf_gdf = gpd.GeoDataFrame(pd.concat(gdfs, ignore_index=True), crs="EPSG:4326")
 
 # Separa los datos por tipo de geometría (polígonos y puntos)
 map_polygons = mapf_gdf[mapf_gdf.geometry.type == 'Polygon']
@@ -78,7 +79,7 @@ tipos_clientes = {
 }
 
 columns_to_save = ['Name', 'Description', 'geometry']
-max_elements = 2000  # Máximo de elementos por archivo
+max_elements = 2000  # Máximo de elementos por capa
 
 csv_chunks = []  # Lista para almacenar los DataFrames de cada chunk
 
