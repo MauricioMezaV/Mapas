@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Folder><name>poligonos</name>
+  <Placemark id="poligonos.1">
+	<name>Coltauco Centro</name>
+	<description>Código: &lt;br&gt;Local: &lt;br&gt;Calle: &lt;br&gt;Población: &lt;br&gt;Tipo de cliente: &lt;br&gt;Cod. Transporte: V1432&lt;br&gt;Transporte: Ricardo Orayan&lt;br&gt;Frecuencia: L W V&lt;br&gt;Kilos Promedio Semanal: &lt;br&gt;Latitud: &lt;br&gt;Longitud: </description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.1143459,-34.2738365,0 -71.0837264,-34.3124538,0 -71.0472008,-34.2986649,0 -71.0336845,-34.2902597,0 -70.9821244,-34.2681865,0 -71.000158,-34.2267211,0 -71.0072352,-34.1902955,0 -71.0432137,-34.2082541,0 -71.0723403,-34.2279077,0 -71.1143459,-34.2738365,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="poligonos.2">
+	<name>Doñihue</name>
+	<description>Código: &lt;br&gt;Local: &lt;br&gt;Calle: &lt;br&gt;Población: &lt;br&gt;Tipo de cliente: &lt;br&gt;Cod. Transporte: V0553&lt;br&gt;Transporte: Claudio Leon&lt;br&gt;Frecuencia: M J S&lt;br&gt;Kilos Promedio Semanal: &lt;br&gt;Latitud: &lt;br&gt;Longitud: </description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.8857466,-34.2138556,0 -70.8883102,-34.2114477,0 -70.8892513,-34.2098688,0 -70.8899457,-34.2082456,0 -70.8899725,-34.2079927,0 -70.8879327,-34.2086246,0 -70.8884255,-34.2065094,0 -70.8888741,-34.2041034,0 -70.8911707,-34.2038748,0 -70.8945889,-34.2036486,0 -70.9009843,-34.2062891,0 -70.9108995,-34.2066004,0 -70.9159608,-34.199379,0 -70.9295152,-34.1802131,0 -70.9674527,-34.2017962,0 -71.0071923,-34.1902955,0 -71.0001151,-34.2267211,0 -70.9875371,-34.2551976,0 -70.9539697,-34.2324818,0 -70.9139797,-34.2179799,0 -70.8857466,-34.2138556,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="poligonos.3">
+	<name>Coinco</name>
+	<description>Código: &lt;br&gt;Local: &lt;br&gt;Calle: &lt;br&gt;Población: &lt;br&gt;Tipo de cliente: &lt;br&gt;Cod. Transporte: V4019&lt;br&gt;Transporte: Carlos Velasquez&lt;br&gt;Frecuencia: J S&lt;br&gt;Kilos Promedio Semanal: &lt;br&gt;Latitud: &lt;br&gt;Longitud: </description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.8893941,-34.2527669,0 -70.8988355,-34.2298488,0 -70.9054444,-34.2163646,0 -70.9532521,-34.2326163,0 -70.98758,-34.2551976,0 -70.9817479,-34.2685151,0 -71.0323451,-34.2898982,0 -71.0340305,-34.299815,0 -71.0297077,-34.3094129,0 -71.0138113,-34.3239875,0 -71.0027243,-34.3217813,0 -70.9400061,-34.292636,0 -70.8893941,-34.2527669,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="poligonos.4">
+	<name>San Roberto</name>
+	<description>Código: &lt;br&gt;Local: &lt;br&gt;Calle: &lt;br&gt;Población: &lt;br&gt;Tipo de cliente: &lt;br&gt;Cod. Transporte: V1155&lt;br&gt;Transporte: Jorge Tobar&lt;br&gt;Frecuencia: M&lt;br&gt;Kilos Promedio Semanal: &lt;br&gt;Latitud: &lt;br&gt;Longitud: </description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.302936,-34.451513,0 -71.294889,-34.4608551,0 -71.2824637,-34.4590852,0 -71.2589048,-34.4286137,0 -71.2473891,-34.4212953,0 -71.2635826,-34.3905877,0 -71.3057255,-34.3678488,0 -71.3442034,-34.3537892,0 -71.3632202,-34.3597721,0 -71.4024489,-34.3295868,0 -71.410152,-34.3386387,0 -71.4171702,-34.348399,0 -71.4213576,-34.3627998,0 -71.4188504,-34.3743665,0 -71.3852047,-34.4240826,0 -71.302936,-34.451513,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="poligonos.5">
+	<name>Patagua Cerro</name>
+	<description>Código: &lt;br&gt;Local: &lt;br&gt;Calle: &lt;br&gt;Población: &lt;br&gt;Tipo de cliente: &lt;br&gt;Cod. Transporte: V0553&lt;br&gt;Transporte: Claudio Leon&lt;br&gt;Frecuencia: L W V&lt;br&gt;Kilos Promedio Semanal: &lt;br&gt;Latitud: &lt;br&gt;Longitud: </description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4174651,-34.2962984,0 -71.4177657,-34.3070927,0 -71.4154052,-34.3183832,0 -71.3936043,-34.3361036,0 -71.3632202,-34.3597721,0 -71.3442034,-34.3537892,0 -71.3335604,-34.3575092,0 -71.3159437,-34.3275145,0 -71.3329021,-34.3090257,0 -71.3544651,-34.2879481,0 -71.3678551,-34.28903,0 -71.3963509,-34.2759809,0 -71.416477,-34.287842,0 -71.4173787,-34.292017,0 -71.4174651,-34.2962984,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="poligonos.6">
+	<name>Población</name>
+	<description>Código: &lt;br&gt;Local: &lt;br&gt;Calle: &lt;br&gt;Población: &lt;br&gt;Tipo de cliente: &lt;br&gt;Cod. Transporte: V0553&lt;br&gt;Transporte: Claudio Leon&lt;br&gt;Frecuencia: L W V&lt;br&gt;Kilos Promedio Semanal: &lt;br&gt;Latitud: &lt;br&gt;Longitud: </description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5202899,-34.4632379,0 -71.4998622,-34.4423592,0 -71.5370269,-34.4303958,0 -71.5693457,-34.4164878,0 -71.5858453,-34.4032983,0 -71.6076025,-34.4132718,0 -71.565866,-34.4583549,0 -71.5519614,-34.4715172,0 -71.5371548,-34.4784169,0 -71.5202899,-34.4632379,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="poligonos.7">
+	<name>Peralillo</name>
+	<description>Código: &lt;br&gt;Local: &lt;br&gt;Calle: &lt;br&gt;Población: &lt;br&gt;Tipo de cliente: &lt;br&gt;Cod. Transporte: V0820&lt;br&gt;Transporte: Eduardo Caro&lt;br&gt;Frecuencia: L W V&lt;br&gt;Kilos Promedio Semanal: &lt;br&gt;Latitud: &lt;br&gt;Longitud: </description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4998622,-34.4423592,0 -71.5211323,-34.4645696,0 -71.5371548,-34.4784169,0 -71.4885166,-34.5068767,0 -71.4333274,-34.4892631,0 -71.43307,-34.4654188,0 -71.4998622,-34.4423592,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="poligonos.8">
+	<name>El Huique</name>
+	<description>Código: &lt;br&gt;Local: &lt;br&gt;Calle: &lt;br&gt;Población: &lt;br&gt;Tipo de cliente: &lt;br&gt;Cod. Transporte: V0820&lt;br&gt;Transporte: Eduardo Caro&lt;br&gt;Frecuencia: L&lt;br&gt;Kilos Promedio Semanal: &lt;br&gt;Latitud: &lt;br&gt;Longitud: </description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4166082,-34.4248281,0 -71.4327914,-34.4356447,0 -71.4326706,-34.469395,0 -71.4333274,-34.4892631,0 -71.3799585,-34.5666596,0 -71.3482405,-34.5686255,0 -71.3124098,-34.5359086,0 -71.3033547,-34.4512319,0 -71.3847753,-34.4253367,0 -71.4166082,-34.4248281,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="poligonos.9">
+	<name>Palmilla</name>
+	<description>Código: &lt;br&gt;Local: &lt;br&gt;Calle: &lt;br&gt;Población: &lt;br&gt;Tipo de cliente: &lt;br&gt;Cod. Transporte: V0820&lt;br&gt;Transporte: Eduardo Caro&lt;br&gt;Frecuencia: L W V&lt;br&gt;Kilos Promedio Semanal: &lt;br&gt;Latitud: &lt;br&gt;Longitud: </description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.4879973,-34.5077539,0 -71.4933489,-34.5680667,0 -71.4496739,-34.6088523,0 -71.3775762,-34.5941396,0 -71.3560111,-34.6106901,0 -71.3353904,-34.6072805,0 -71.3427718,-34.5689825,0 -71.3799585,-34.5666596,0 -71.4333274,-34.4892631,0 -71.4879973,-34.5077539,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="poligonos.10">
+	<name>Malloa</name>
+	<description>Código: &lt;br&gt;Local: &lt;br&gt;Calle: &lt;br&gt;Población: &lt;br&gt;Tipo de cliente: &lt;br&gt;Cod. Transporte: V3965&lt;br&gt;Transporte: Mario Zamora&lt;br&gt;Frecuencia: L W&lt;br&gt;Kilos Promedio Semanal: &lt;br&gt;Latitud: &lt;br&gt;Longitud: </description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.860891,-34.3811374,0 -70.9219595,-34.3622929,0 -70.9671816,-34.3854621,0 -70.9917379,-34.3990117,0 -71.0349985,-34.3935328,0 -71.0377957,-34.4096211,0 -71.0256144,-34.4157413,0 -71.0152319,-34.4119678,0 -71.012231,-34.4116988,0 -71.0068154,-34.4165722,0 -71.0040176,-34.4194627,0 -70.9939583,-34.4231193,0 -70.9586798,-34.4605335,0 -70.9413025,-34.4645968,0 -70.9343103,-34.4638822,0 -70.9236761,-34.4427421,0 -70.9063984,-34.422512,0 -70.890665,-34.4105499,0 -70.8878096,-34.4022466,0 -70.8862559,-34.3995414,0 -70.8838656,-34.39552,0 -70.8795363,-34.3880081,0 -70.8719621,-34.3876364,0 -70.8645059,-34.3873089,0 -70.860891,-34.3811374,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="poligonos.11">
+	<name>Los Lirios</name>
+	<description>Código: &lt;br&gt;Local: &lt;br&gt;Calle: &lt;br&gt;Población: &lt;br&gt;Tipo de cliente: &lt;br&gt;Cod. Transporte: V2147&lt;br&gt;Transporte: Nelson Molinet&lt;br&gt;Frecuencia: L W V&lt;br&gt;Kilos Promedio Semanal: &lt;br&gt;Latitud: &lt;br&gt;Longitud: </description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.78207,-34.211924,0 -70.7861429,-34.2127336,0 -70.7880487,-34.2166307,0 -70.7919469,-34.2250988,0 -70.7933138,-34.2304972,0 -70.8012476,-34.2380242,0 -70.7930508,-34.2397981,0 -70.7700322,-34.2425103,0 -70.7563851,-34.2161116,0 -70.78207,-34.211924,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="poligonos.12">
+	<name>Marchihue</name>
+	<description>Código: &lt;br&gt;Local: &lt;br&gt;Calle: &lt;br&gt;Población: &lt;br&gt;Tipo de cliente: &lt;br&gt;Cod. Transporte: V0553&lt;br&gt;Transporte: Claudio Leon&lt;br&gt;Frecuencia: L W V&lt;br&gt;Kilos Promedio Semanal: &lt;br&gt;Latitud: &lt;br&gt;Longitud: </description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.745275,-34.3869268,0 -71.7310271,-34.3996754,0 -71.6076025,-34.4132718,0 -71.549066,-34.3872101,0 -71.5577335,-34.3665376,0 -71.5543835,-34.3520996,0 -71.529325,-34.3195393,0 -71.4867529,-34.3075583,0 -71.4331946,-34.3081255,0 -71.4177442,-34.303375,0 -71.4174017,-34.2926684,0 -71.4460692,-34.2769247,0 -71.5155062,-34.2889101,0 -71.6283735,-34.2806128,0 -71.6344668,-34.2859457,0 -71.6508606,-34.2875899,0 -71.6790156,-34.2895978,0 -71.7042543,-34.2898986,0 -71.7294935,-34.2910452,0 -71.7441168,-34.307977,0 -71.7935458,-34.2982699,0 -71.8009147,-34.2991918,0 -71.7696509,-34.320319,0 -71.7415042,-34.352633,0 -71.745275,-34.3869268,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="poligonos.13">
+	<name>Chancón</name>
+	<description>Código: &lt;br&gt;Local: &lt;br&gt;Calle: &lt;br&gt;Población: &lt;br&gt;Tipo de cliente: &lt;br&gt;Cod. Transporte: V3912&lt;br&gt;Transporte: Rafael Espinoza&lt;br&gt;Frecuencia: M&lt;br&gt;Kilos Promedio Semanal: &lt;br&gt;Latitud: &lt;br&gt;Longitud: </description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7478136,-34.1106595,0 -70.7513596,-34.1098409,0 -70.75291,-34.1097506,0 -70.7723509,-34.1105818,0 -70.7836912,-34.112118,0 -70.7959539,-34.1111482,0 -70.7899243,-34.0902706,0 -70.8094079,-34.0776172,0 -70.8227974,-34.0727829,0 -70.8560998,-34.0796078,0 -70.8629662,-34.0904128,0 -70.8609337,-34.1446498,0 -70.8355988,-34.1470548,0 -70.8108944,-34.1486277,0 -70.7894218,-34.1504289,0 -70.7743124,-34.1548632,0 -70.7638231,-34.1348182,0 -70.7545928,-34.1174592,0 -70.7486229,-34.118585,0 -70.7478136,-34.1106595,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="poligonos.14">
+	<name>Rancagua Oriente 1</name>
+	<description>Código: &lt;br&gt;Local: &lt;br&gt;Calle: &lt;br&gt;Población: &lt;br&gt;Tipo de cliente: &lt;br&gt;Cod. Transporte: V4022&lt;br&gt;Transporte: Matías Navarrete&lt;br&gt;Frecuencia: L W V&lt;br&gt;Kilos Promedio Semanal: &lt;br&gt;Latitud: &lt;br&gt;Longitud: </description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7093795,-34.1896218,0 -70.7015903,-34.1758649,0 -70.7002171,-34.1746933,0 -70.6997021,-34.1703615,0 -70.6971379,-34.1681778,0 -70.6956466,-34.1668818,0 -70.695829,-34.1665267,0 -70.6962152,-34.1662249,0 -70.6977601,-34.1652129,0 -70.6999059,-34.1647069,0 -70.7087894,-34.1587145,0 -70.7139929,-34.1642186,0 -70.7176726,-34.1682488,0 -70.7178604,-34.1687548,0 -70.7184693,-34.1690433,0 -70.720601,-34.1708465,0 -70.7268955,-34.169951,0 -70.7267065,-34.1721369,0 -70.7266851,-34.1724032,0 -70.7266798,-34.1733219,0 -70.7268756,-34.1740164,0 -70.727644,-34.1750871,0 -70.7330943,-34.1790678,0 -70.7220316,-34.1850731,0 -70.7168644,-34.1878801,0 -70.715654,-34.1884315,0 -70.7093795,-34.1896218,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="poligonos.15">
+	<name>Rancagua Sur 2</name>
+	<description>Código: &lt;br&gt;Local: &lt;br&gt;Calle: &lt;br&gt;Población: &lt;br&gt;Tipo de cliente: &lt;br&gt;Cod. Transporte: V4055&lt;br&gt;Transporte: Victor Jara&lt;br&gt;Frecuencia: M J S&lt;br&gt;Kilos Promedio Semanal: &lt;br&gt;Latitud: &lt;br&gt;Longitud: </description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7528139,-34.1908097,0 -70.7453737,-34.1934499,0 -70.7455185,-34.1935875,0 -70.7455116,-34.1936183,0 -70.7457032,-34.1938798,0 -70.745735,-34.1939071,0 -70.7458267,-34.193962,0 -70.7458756,-34.1940025,0 -70.745858,-34.1944251,0 -70.7457895,-34.1945925,0 -70.7422353,-34.1963118,0 -70.728438,-34.204156,0 -70.7123877,-34.1940754,0 -70.7102419,-34.1917326,0 -70.7093407,-34.1898157,0 -70.7159925,-34.1885022,0 -70.7224728,-34.1850232,0 -70.7275904,-34.1822985,0 -70.7305838,-34.1806033,0 -70.7325793,-34.1793341,0 -70.7330943,-34.1790678,0 -70.7410015,-34.1849789,0 -70.7427503,-34.1862391,0 -70.7449389,-34.1877568,0 -70.7463122,-34.1882626,0 -70.7517947,-34.1902683,0 -70.7528139,-34.1908097,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="poligonos.16">
+	<name>San Fernando Cerro</name>
+	<description>Código: &lt;br&gt;Local: &lt;br&gt;Calle: &lt;br&gt;Población: &lt;br&gt;Tipo de cliente: &lt;br&gt;Cod. Transporte: V2881&lt;br&gt;Transporte: Carlos Reyes&lt;br&gt;Frecuencia: W&lt;br&gt;Kilos Promedio Semanal: &lt;br&gt;Latitud: &lt;br&gt;Longitud: </description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.9908208,-34.6396772,0 -70.8800134,-34.687612,0 -70.8702291,-34.7002095,0 -70.8582976,-34.6947049,0 -70.85538,-34.6884589,0 -70.8340081,-34.6214561,0 -70.8867941,-34.5760272,0 -70.9140882,-34.5754619,0 -70.9574756,-34.5931985,0 -70.9788904,-34.6021713,0 -70.9926233,-34.6188427,0 -70.9946832,-34.6381942,0 -70.9908208,-34.6396772,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="poligonos.17">
+	<name>Graneros Sur</name>
+	<description>Código: &lt;br&gt;Local: &lt;br&gt;Calle: &lt;br&gt;Población: &lt;br&gt;Tipo de cliente: &lt;br&gt;Cod. Transporte: &lt;br&gt;Transporte: &lt;br&gt;Frecuencia: J S&lt;br&gt;Kilos Promedio Semanal: &lt;br&gt;Latitud: &lt;br&gt;Longitud: </description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7316434,-34.0666162,0 -70.7317588,-34.0670089,0 -70.7319117,-34.0674105,0 -70.7322389,-34.0682848,0 -70.7330973,-34.0711354,0 -70.7344544,-34.0753966,0 -70.7354683,-34.0796933,0 -70.735822,-34.0805858,0 -70.7377207,-34.0848016,0 -70.7389543,-34.0876578,0 -70.7401021,-34.0898032,0 -70.7488569,-34.1031125,0 -70.7493292,-34.1038013,0 -70.7500161,-34.1068355,0 -70.7502311,-34.1082133,0 -70.7508105,-34.1098123,0 -70.733065,-34.1066677,0 -70.7291168,-34.1052108,0 -70.7220358,-34.1056016,0 -70.7192463,-34.0986011,0 -70.713839,-34.0770274,0 -70.713029,-34.0741036,0 -70.7122404,-34.0711443,0 -70.7140107,-34.0703445,0 -70.7165321,-34.0698304,0 -70.7218859,-34.0687029,0 -70.7316434,-34.0666162,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="poligonos.18">
+	<name>Graneros Norte</name>
+	<description>Código: &lt;br&gt;Local: &lt;br&gt;Calle: &lt;br&gt;Población: &lt;br&gt;Tipo de cliente: &lt;br&gt;Cod. Transporte: V3969&lt;br&gt;Transporte: Juan Gutierrez&lt;br&gt;Frecuencia: M S&lt;br&gt;Kilos Promedio Semanal: &lt;br&gt;Latitud: &lt;br&gt;Longitud: </description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7121555,-34.0705281,0 -70.7083269,-34.0580767,0 -70.7069965,-34.0524945,0 -70.7060094,-34.0398888,0 -70.7140775,-34.0404756,0 -70.7164077,-34.0411856,0 -70.7180836,-34.0415488,0 -70.7245038,-34.0427372,0 -70.7264026,-34.0463482,0 -70.7269445,-34.0477449,0 -70.7270138,-34.049065,0 -70.7262685,-34.0508947,0 -70.72662,-34.0531385,0 -70.7283515,-34.0581093,0 -70.730022,-34.0623191,0 -70.7315049,-34.0666577,0 -70.7121555,-34.0705281,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="poligonos.19">
+	<name>Graneros Poniente</name>
+	<description>Código: &lt;br&gt;Local: &lt;br&gt;Calle: &lt;br&gt;Población: &lt;br&gt;Tipo de cliente: &lt;br&gt;Cod. Transporte: &lt;br&gt;Transporte: &lt;br&gt;Frecuencia: L&lt;br&gt;Kilos Promedio Semanal: &lt;br&gt;Latitud: &lt;br&gt;Longitud: </description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7462466,-34.0279735,0 -70.7473624,-34.0284003,0 -70.7722489,-34.0478171,0 -70.7880461,-34.0648126,0 -70.7878744,-34.0861407,0 -70.7922518,-34.0988283,0 -70.7956421,-34.1109811,0 -70.7825959,-34.1119049,0 -70.7704508,-34.1104126,0 -70.7671893,-34.1095598,0 -70.7650006,-34.1100573,0 -70.7585633,-34.1099152,0 -70.7533705,-34.1096309,0 -70.7508105,-34.1098123,0 -70.7497871,-34.105509,0 -70.7492936,-34.1035191,0 -70.7401955,-34.0901569,0 -70.737921,-34.0855365,0 -70.7354319,-34.0800627,0 -70.7351315,-34.0781077,0 -70.7343159,-34.0754559,0 -70.7313549,-34.0660924,0 -70.72662,-34.0531563,0 -70.7264402,-34.0509303,0 -70.7270205,-34.049702,0 -70.7270947,-34.0477094,0 -70.7237206,-34.0403133,0 -70.7208192,-34.0327393,0 -70.7462466,-34.0279735,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="poligonos.20">
+	<name>Lo Miranda Sur</name>
+	<description>Código: &lt;br&gt;Local: &lt;br&gt;Calle: &lt;br&gt;Población: &lt;br&gt;Tipo de cliente: &lt;br&gt;Cod. Transporte: &lt;br&gt;Transporte: &lt;br&gt;Frecuencia: &lt;br&gt;Kilos Promedio Semanal: &lt;br&gt;Latitud: &lt;br&gt;Longitud: </description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.8888741,-34.2041034,0 -70.8879327,-34.2086246,0 -70.8899725,-34.2079927,0 -70.8892916,-34.2097246,0 -70.8883102,-34.2114477,0 -70.8857466,-34.2138556,0 -70.8738161,-34.2105906,0 -70.8664776,-34.2075029,0 -70.8590103,-34.2033503,0 -70.8468224,-34.1947251,0 -70.8422734,-34.1911043,0 -70.8440557,-34.189191,0 -70.8461156,-34.1873805,0 -70.8483784,-34.1945941,0 -70.8675933,-34.1969614,0 -70.8733919,-34.1972266,0 -70.8797487,-34.1974736,0 -70.8861216,-34.19662,0 -70.8866527,-34.1969696,0 -70.888549,-34.1970911,0 -70.8894154,-34.1969553,0 -70.916195,-34.1990911,0 -70.9108995,-34.2066004,0 -70.9007969,-34.2061943,0 -70.8944492,-34.203605,0 -70.8888741,-34.2041034,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="poligonos.21">
+	<name>Lo Miranda Norte</name>
+	<description>Código: &lt;br&gt;Local: &lt;br&gt;Calle: &lt;br&gt;Población: &lt;br&gt;Tipo de cliente: &lt;br&gt;Cod. Transporte: &lt;br&gt;Transporte: &lt;br&gt;Frecuencia: &lt;br&gt;Kilos Promedio Semanal: &lt;br&gt;Latitud: &lt;br&gt;Longitud: </description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.9290286,-34.180146,0 -70.916195,-34.1990911,0 -70.8893749,-34.1969326,0 -70.888549,-34.1970911,0 -70.8866527,-34.1969696,0 -70.8861082,-34.1965561,0 -70.8797487,-34.1974736,0 -70.8675933,-34.1969614,0 -70.8483784,-34.1945941,0 -70.8461156,-34.1873805,0 -70.8533254,-34.1824104,0 -70.8843967,-34.1776607,0 -70.9290286,-34.180146,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="poligonos.22">
+	<name>Gultro</name>
+	<description>Código: &lt;br&gt;Local: &lt;br&gt;Calle: &lt;br&gt;Población: &lt;br&gt;Tipo de cliente: &lt;br&gt;Cod. Transporte: V0820&lt;br&gt;Transporte: Eduardo Caro&lt;br&gt;Frecuencia: M J&lt;br&gt;Kilos Promedio Semanal: &lt;br&gt;Latitud: &lt;br&gt;Longitud: </description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7861516,-34.2126219,0 -70.7816132,-34.2117702,0 -70.7563851,-34.2161116,0 -70.7386121,-34.2100667,0 -70.7323893,-34.2104925,0 -70.7381829,-34.2050979,0 -70.740157,-34.1998804,0 -70.7492551,-34.1952305,0 -70.7527741,-34.1959404,0 -70.755392,-34.194556,0 -70.7591256,-34.1931006,0 -70.7877747,-34.188732,0 -70.7857825,-34.1950823,0 -70.7842889,-34.2059366,0 -70.7847354,-34.2093302,0 -70.7861516,-34.2126219,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="poligonos.23">
+	<name>Codegua Sur</name>
+	<description>Código: &lt;br&gt;Local: &lt;br&gt;Calle: &lt;br&gt;Población: &lt;br&gt;Tipo de cliente: &lt;br&gt;Cod. Transporte: &lt;br&gt;Transporte: &lt;br&gt;Frecuencia: V&lt;br&gt;Kilos Promedio Semanal: &lt;br&gt;Latitud: &lt;br&gt;Longitud: </description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7057359,-34.0398454,0 -70.7069965,-34.0524945,0 -70.7182671,-34.0944684,0 -70.7283952,-34.1298932,0 -70.6910347,-34.1395839,0 -70.6835352,-34.146954,0 -70.656984,-34.1427519,0 -70.6440236,-34.1436043,0 -70.6122662,-34.1300353,0 -70.5685102,-34.0330356,0 -70.5808698,-34.0324666,0 -70.5858095,-34.0340904,0 -70.5863719,-34.0340782,0 -70.5869388,-34.0338405,0 -70.587858,-34.033685,0 -70.5888381,-34.0341208,0 -70.591013,-34.0348856,0 -70.5914575,-34.0346371,0 -70.5932048,-34.0353847,0 -70.5990171,-34.036275,0 -70.6032176,-34.037664,0 -70.6077992,-34.037561,0 -70.6107181,-34.0374801,0 -70.6139589,-34.0374258,0 -70.6191101,-34.0371569,0 -70.6211942,-34.0364411,0 -70.6257485,-34.0363075,0 -70.6309843,-34.0350184,0 -70.6351148,-34.0327511,0 -70.6451999,-34.0331667,0 -70.6494056,-34.0328706,0 -70.6520664,-34.0329895,0 -70.6545769,-34.0328715,0 -70.6548988,-34.0324576,0 -70.6549524,-34.0329422,0 -70.6580102,-34.0330623,0 -70.661894,-34.0323954,0 -70.6690179,-34.030546,0 -70.6731378,-34.0307594,0 -70.6788885,-34.0323954,0 -70.6820642,-34.03268,0 -70.6842529,-34.0314707,0 -70.6919347,-34.0316841,0 -70.6960975,-34.0327511,0 -70.6984579,-34.0330356,0 -70.7046806,-34.0296391,0 -70.7208192,-34.0327393,0 -70.7245201,-34.0425126,0 -70.7057359,-34.0398454,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="poligonos.24">
+	<name>Machalí Poniente</name>
+	<description>Código: &lt;br&gt;Local: &lt;br&gt;Calle: &lt;br&gt;Población: &lt;br&gt;Tipo de cliente: &lt;br&gt;Cod. Transporte: &lt;br&gt;Transporte: &lt;br&gt;Frecuencia: &lt;br&gt;Kilos Promedio Semanal: &lt;br&gt;Latitud: &lt;br&gt;Longitud: </description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6671633,-34.1574313,0 -70.6762614,-34.1610535,0 -70.6893717,-34.1605736,0 -70.6997021,-34.1703615,0 -70.7002171,-34.1746933,0 -70.7015903,-34.1758649,0 -70.70583,-34.1834756,0 -70.7093795,-34.1896218,0 -70.7101913,-34.1916805,0 -70.7091023,-34.1923905,0 -70.7096602,-34.1937571,0 -70.7110335,-34.1947776,0 -70.7127394,-34.1958692,0 -70.7132651,-34.1962419,0 -70.7137694,-34.1974044,0 -70.7167842,-34.2004569,0 -70.7208182,-34.2083097,0 -70.7149388,-34.2114328,0 -70.7059266,-34.2125685,0 -70.6980302,-34.2108295,0 -70.6943824,-34.2099067,0 -70.6900479,-34.2127459,0 -70.6846406,-34.2107585,0 -70.6733968,-34.2137041,0 -70.6716372,-34.2168625,0 -70.6648566,-34.220908,0 -70.6488921,-34.2151946,0 -70.651467,-34.1943606,0 -70.6522115,-34.1814328,0 -70.6524576,-34.1812947,0 -70.6527895,-34.1812632,0 -70.653114,-34.181026,0 -70.6536239,-34.1803846,0 -70.6543118,-34.1796333,0 -70.6545866,-34.1794633,0 -70.6554713,-34.1795465,0 -70.656126,-34.1795283,0 -70.656652,-34.1793148,0 -70.6576489,-34.1780424,0 -70.6594488,-34.1752846,0 -70.6662032,-34.1667397,0 -70.6649452,-34.1639942,0 -70.6671633,-34.1574313,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="poligonos.25">
+	<name>El Abra</name>
+	<description>Código: &lt;br&gt;Local: &lt;br&gt;Calle: &lt;br&gt;Población: &lt;br&gt;Tipo de cliente: &lt;br&gt;Cod. Transporte: V4019&lt;br&gt;Transporte: Carlos Velasquez&lt;br&gt;Frecuencia: J S&lt;br&gt;Kilos Promedio Semanal: &lt;br&gt;Latitud: &lt;br&gt;Longitud: </description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.8916739,-34.246961,0 -70.8893301,-34.2525515,0 -70.9113291,-34.2706193,0 -70.8608178,-34.2939873,0 -70.8507971,-34.2849813,0 -70.8405617,-34.2451163,0 -70.8672551,-34.2356084,0 -70.8704308,-34.237879,0 -70.8916739,-34.246961,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="poligonos.26">
+	<name>Quinta de Tilcoco</name>
+	<description>Código: &lt;br&gt;Local: &lt;br&gt;Calle: &lt;br&gt;Población: &lt;br&gt;Tipo de cliente: &lt;br&gt;Cod. Transporte: V1432&lt;br&gt;Transporte: Ricardo Orayan&lt;br&gt;Frecuencia: M J S&lt;br&gt;Kilos Promedio Semanal: &lt;br&gt;Latitud: &lt;br&gt;Longitud: </description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.9226443,-34.3621768,0 -70.9243629,-34.3430045,0 -70.9240213,-34.3236904,0 -70.9653021,-34.3049087,0 -71.0027243,-34.3217813,0 -71.0512186,-34.331827,0 -71.0796311,-34.3876,0 -70.9917379,-34.3990117,0 -70.9226443,-34.3621768,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="poligonos.27">
+	<name>Punta de Cortés</name>
+	<description>Código: &lt;br&gt;Local: &lt;br&gt;Calle: &lt;br&gt;Población: &lt;br&gt;Tipo de cliente: &lt;br&gt;Cod. Transporte: V3912&lt;br&gt;Transporte: Rafael Espinoza&lt;br&gt;Frecuencia: L W V&lt;br&gt;Kilos Promedio Semanal: &lt;br&gt;Latitud: &lt;br&gt;Longitud: </description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.835258,-34.1660425,0 -70.853497,-34.1635924,0 -70.8589044,-34.173357,0 -70.8533254,-34.1824104,0 -70.8440557,-34.189191,0 -70.842854,-34.189688,0 -70.8397212,-34.188623,0 -70.8383479,-34.187132,0 -70.8273616,-34.184434,0 -70.823113,-34.1825169,0 -70.8080926,-34.183085,0 -70.8055606,-34.1707295,0 -70.835258,-34.1660425,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="poligonos.28">
+	<name>Rancagua Poniente 1</name>
+	<description>Código: &lt;br&gt;Local: &lt;br&gt;Calle: &lt;br&gt;Población: &lt;br&gt;Tipo de cliente: &lt;br&gt;Cod. Transporte: V3912&lt;br&gt;Transporte: Rafael Espinoza&lt;br&gt;Frecuencia: L W V&lt;br&gt;Kilos Promedio Semanal: &lt;br&gt;Latitud: &lt;br&gt;Longitud: </description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.8355988,-34.1470548,0 -70.8507908,-34.1638881,0 -70.8055606,-34.1707295,0 -70.8080926,-34.183085,0 -70.7725562,-34.1858124,0 -70.7676216,-34.179568,0 -70.7584715,-34.17769,0 -70.7526361,-34.1686486,0 -70.7713585,-34.1643275,0 -70.7684405,-34.1564552,0 -70.7894218,-34.1504289,0 -70.8355988,-34.1470548,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="poligonos.29">
+	<name>Rancagua Poniente 2</name>
+	<description>Código: &lt;br&gt;Local: &lt;br&gt;Calle: &lt;br&gt;Población: &lt;br&gt;Tipo de cliente: &lt;br&gt;Cod. Transporte: V3912&lt;br&gt;Transporte: Rafael Espinoza&lt;br&gt;Frecuencia: M J S&lt;br&gt;Kilos Promedio Semanal: &lt;br&gt;Latitud: &lt;br&gt;Longitud: </description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7487348,-34.1535314,0 -70.7448725,-34.1396621,0 -70.7501518,-34.1240312,0 -70.7494111,-34.118498,0 -70.7545928,-34.1174592,0 -70.7743124,-34.1548632,0 -70.7684405,-34.1564552,0 -70.7713585,-34.1643275,0 -70.7619727,-34.1666312,0 -70.7573226,-34.1677295,0 -70.7557163,-34.1680744,0 -70.7525865,-34.1685436,0 -70.7487348,-34.1535314,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="poligonos.30">
+	<name>Rancagua Oriente 2</name>
+	<description>Código: &lt;br&gt;Local: &lt;br&gt;Calle: &lt;br&gt;Población: &lt;br&gt;Tipo de cliente: &lt;br&gt;Cod. Transporte: V4022&lt;br&gt;Transporte: Matias Navarrete&lt;br&gt;Frecuencia: M J S&lt;br&gt;Kilos Promedio Semanal: &lt;br&gt;Latitud: &lt;br&gt;Longitud: </description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6956466,-34.1668818,0 -70.6893717,-34.1605736,0 -70.6898008,-34.1555131,0 -70.6835352,-34.146954,0 -70.689994,-34.1405607,0 -70.6906162,-34.1399835,0 -70.6910347,-34.1395839,0 -70.7088338,-34.1587713,0 -70.6999059,-34.1647069,0 -70.6977601,-34.1652129,0 -70.695829,-34.1665267,0 -70.6956466,-34.1668818,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="poligonos.31">
+	<name>San Vicente Cerro</name>
+	<description>Código: &lt;br&gt;Local: &lt;br&gt;Calle: &lt;br&gt;Población: &lt;br&gt;Tipo de cliente: &lt;br&gt;Cod. Transporte: V3294&lt;br&gt;Transporte: Luis Medina&lt;br&gt;Frecuencia: M J S&lt;br&gt;Kilos Promedio Semanal: &lt;br&gt;Latitud: &lt;br&gt;Longitud: </description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.0833215,-34.4506351,0 -71.1026764,-34.4492903,0 -71.1152077,-34.4477331,0 -71.1234474,-34.4410796,0 -71.1285972,-34.4324433,0 -71.1452055,-34.4347794,0 -71.1421156,-34.4255761,0 -71.1550518,-34.4210815,0 -71.1757114,-34.4158077,0 -71.1936072,-34.4356313,0 -71.2373876,-34.5385647,0 -71.2246847,-34.5482504,0 -71.1756754,-34.5380698,0 -71.1588526,-34.50844,0 -71.1253786,-34.5114105,0 -71.1166239,-34.5071669,0 -71.0856771,-34.482688,0 -71.0854674,-34.4558016,0 -71.0833215,-34.4506351,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="poligonos.32">
+	<name>Rancagua Sur 1</name>
+	<description>Código: &lt;br&gt;Local: &lt;br&gt;Calle: &lt;br&gt;Población: &lt;br&gt;Tipo de cliente: &lt;br&gt;Cod. Transporte: V4055&lt;br&gt;Transporte: Victor Jara&lt;br&gt;Frecuencia: L W V&lt;br&gt;Kilos Promedio Semanal: &lt;br&gt;Latitud: &lt;br&gt;Longitud: </description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7725616,-34.1859722,0 -70.7531547,-34.1908076,0 -70.7494211,-34.1891036,0 -70.7448721,-34.1874529,0 -70.7351088,-34.1802107,0 -70.7331991,-34.1788438,0 -70.7345349,-34.1777476,0 -70.7356373,-34.1769066,0 -70.7360101,-34.1767136,0 -70.7375041,-34.1761877,0 -70.7390088,-34.1757061,0 -70.7417928,-34.1750004,0 -70.7476723,-34.1739798,0 -70.7529187,-34.1732518,0 -70.7530796,-34.1730654,0 -70.754962,-34.1722567,0 -70.7576813,-34.1764987,0 -70.7584661,-34.1777255,0 -70.7623049,-34.1785029,0 -70.7624068,-34.1785132,0 -70.7625945,-34.1785768,0 -70.7651372,-34.1790944,0 -70.7675188,-34.1795971,0 -70.7725616,-34.1859722,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="poligonos.33">
+	<name>Pichidegua</name>
+	<description>Código: &lt;br&gt;Local: &lt;br&gt;Calle: &lt;br&gt;Población: &lt;br&gt;Tipo de cliente: &lt;br&gt;Cod. Transporte: V1155&lt;br&gt;Transporte: Jorge Tobar&lt;br&gt;Frecuencia: L W V&lt;br&gt;Kilos Promedio Semanal: &lt;br&gt;Latitud: &lt;br&gt;Longitud: </description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.3126177,-34.3294101,0 -71.3159437,-34.3275145,0 -71.3225738,-34.3386247,0 -71.3335604,-34.3575092,0 -71.3027944,-34.369185,0 -71.2829203,-34.380003,0 -71.2614626,-34.3919027,0 -71.2473891,-34.4212953,0 -71.1911011,-34.4316331,0 -71.176864,-34.4159824,0 -71.1801381,-34.404863,0 -71.2154004,-34.3908785,0 -71.2482447,-34.3683849,0 -71.2635226,-34.3529388,0 -71.2880702,-34.3377735,0 -71.3126177,-34.3294101,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="poligonos.34">
+	<name>Olivar </name>
+	<description>Código: &lt;br&gt;Local: &lt;br&gt;Calle: &lt;br&gt;Población: &lt;br&gt;Tipo de cliente: &lt;br&gt;Cod. Transporte: V0820&lt;br&gt;Transporte: Eduardo Caro&lt;br&gt;Frecuencia: M&lt;br&gt;Kilos Promedio Semanal: &lt;br&gt;Latitud: &lt;br&gt;Longitud: </description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.8916739,-34.246961,0 -70.8672551,-34.2356084,0 -70.8405617,-34.2451163,0 -70.8240786,-34.2330571,0 -70.8012476,-34.2380242,0 -70.7933138,-34.2304972,0 -70.791142,-34.2207235,0 -70.7882237,-34.2152586,0 -70.7856488,-34.2095093,0 -70.785048,-34.2046115,0 -70.7862496,-34.1963768,0 -70.7879662,-34.1900938,0 -70.8141866,-34.1911789,0 -70.8273197,-34.1893484,0 -70.8360744,-34.1928981,0 -70.8491206,-34.2009912,0 -70.8493352,-34.204292,0 -70.8549227,-34.2098914,0 -70.8658339,-34.2152042,0 -70.875511,-34.2189798,0 -70.8788691,-34.2205297,0 -70.8936375,-34.2196366,0 -70.904114,-34.2186713,0 -70.8916739,-34.246961,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="poligonos.35">
+	<name>Rengo Cerro</name>
+	<description>Código: &lt;br&gt;Local: &lt;br&gt;Calle: &lt;br&gt;Población: &lt;br&gt;Tipo de cliente: &lt;br&gt;Cod. Transporte: V4019&lt;br&gt;Transporte: Carlos Velasquez&lt;br&gt;Frecuencia: L W&lt;br&gt;Kilos Promedio Semanal: &lt;br&gt;Latitud: &lt;br&gt;Longitud: </description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.8375874,-34.3624179,0 -70.8411395,-34.3705213,0 -70.8409249,-34.37057,0 -70.8426522,-34.3729389,0 -70.8395473,-34.3740151,0 -70.843226,-34.3800661,0 -70.8421424,-34.3810224,0 -70.8408979,-34.380987,0 -70.8396211,-34.3813501,0 -70.8389989,-34.3819699,0 -70.8385697,-34.3822001,0 -70.8378616,-34.3819876,0 -70.8365741,-34.3825543,0 -70.8347717,-34.3834928,0 -70.8337846,-34.3835459,0 -70.8326045,-34.3845376,0 -70.8313331,-34.3848696,0 -70.83033,-34.3849493,0 -70.8290371,-34.3852548,0 -70.8279428,-34.3857905,0 -70.8240209,-34.38707,0 -70.8234844,-34.3880085,0 -70.823984,-34.3919604,0 -70.8260379,-34.3988979,0 -70.8313547,-34.4095059,0 -70.8210597,-34.4139814,0 -70.8183499,-34.4172391,0 -70.8206306,-34.4303365,0 -70.7933364,-34.4512183,0 -70.7807193,-34.4473255,0 -70.7722221,-34.4364954,0 -70.7683597,-34.4139814,0 -70.7650552,-34.39649,0 -70.7618795,-34.3823242,0 -70.7737241,-34.366739,0 -70.7917486,-34.3582368,0 -70.8375874,-34.3624179,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="poligonos.36">
+	<name>Rengo Sur 1</name>
+	<description>Código: &lt;br&gt;Local: &lt;br&gt;Calle: &lt;br&gt;Población: &lt;br&gt;Tipo de cliente: &lt;br&gt;Cod. Transporte: &lt;br&gt;Transporte: &lt;br&gt;Frecuencia: L W&lt;br&gt;Kilos Promedio Semanal: &lt;br&gt;Latitud: &lt;br&gt;Longitud: </description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.8549525,-34.4169032,0 -70.8546896,-34.4141993,0 -70.8541693,-34.411513,0 -70.8537509,-34.4108094,0 -70.8634528,-34.4079484,0 -70.8687541,-34.4062388,0 -70.8738809,-34.4045157,0 -70.8790763,-34.4135576,0 -70.8803603,-34.4259948,0 -70.8686401,-34.427493,0 -70.8549525,-34.4169032,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="poligonos.37">
+	<name>Rengo Centro</name>
+	<description>Código: &lt;br&gt;Local: &lt;br&gt;Calle: &lt;br&gt;Población: &lt;br&gt;Tipo de cliente: &lt;br&gt;Cod. Transporte: &lt;br&gt;Transporte: &lt;br&gt;Frecuencia: M J&lt;br&gt;Kilos Promedio Semanal: &lt;br&gt;Latitud: &lt;br&gt;Longitud: </description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.8500182,-34.405087,0 -70.8530062,-34.4047418,0 -70.8552593,-34.4044497,0 -70.8570349,-34.4034513,0 -70.8609777,-34.4031042,0 -70.8723762,-34.4018704,0 -70.8739238,-34.4045511,0 -70.8605432,-34.4088181,0 -70.8536231,-34.4108716,0 -70.8530867,-34.40861,0 -70.8520513,-34.4071761,0 -70.8507907,-34.4058395,0 -70.8500182,-34.405087,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="poligonos.38">
+	<name>Rengo Sur 2</name>
+	<description>Código: &lt;br&gt;Local: &lt;br&gt;Calle: &lt;br&gt;Población: &lt;br&gt;Tipo de cliente: &lt;br&gt;Cod. Transporte: &lt;br&gt;Transporte: &lt;br&gt;Frecuencia: S&lt;br&gt;Kilos Promedio Semanal: &lt;br&gt;Latitud: &lt;br&gt;Longitud: </description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.8498627,-34.4050358,0 -70.8512871,-34.4064138,0 -70.8525185,-34.4078271,0 -70.8530418,-34.4086386,0 -70.8537509,-34.4108094,0 -70.8541806,-34.4116241,0 -70.8542875,-34.4124296,0 -70.8545872,-34.4141116,0 -70.8549525,-34.4169032,0 -70.8686401,-34.427493,0 -70.8510026,-34.431761,0 -70.8227211,-34.4307859,0 -70.8183499,-34.4172391,0 -70.8210597,-34.4139814,0 -70.8313054,-34.4097206,0 -70.8404252,-34.4055844,0 -70.8414444,-34.4063457,0 -70.8442232,-34.4066112,0 -70.8498627,-34.4050358,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="poligonos.39">
+	<name>Rengo Norte 1</name>
+	<description>Código: &lt;br&gt;Local: &lt;br&gt;Calle: &lt;br&gt;Población: &lt;br&gt;Tipo de cliente: &lt;br&gt;Cod. Transporte: &lt;br&gt;Transporte: &lt;br&gt;Frecuencia: V&lt;br&gt;Kilos Promedio Semanal: &lt;br&gt;Latitud: &lt;br&gt;Longitud: </description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.8595281,-34.4030577,0 -70.8585546,-34.4019764,0 -70.8576799,-34.4002448,0 -70.8559178,-34.3963696,0 -70.8545231,-34.3929168,0 -70.8524417,-34.3881891,0 -70.8494913,-34.388986,0 -70.8469593,-34.38938,0 -70.8464309,-34.3894685,0 -70.8463852,-34.389132,0 -70.8462458,-34.3873834,0 -70.8458863,-34.3853027,0 -70.8439874,-34.3811589,0 -70.8399963,-34.3741193,0 -70.8426522,-34.3729389,0 -70.8538151,-34.3686554,0 -70.8579563,-34.3769087,0 -70.8645059,-34.3873089,0 -70.8795363,-34.3880081,0 -70.8876004,-34.4020386,0 -70.8811577,-34.4010287,0 -70.8669822,-34.4023911,0 -70.8619221,-34.4029347,0 -70.8595281,-34.4030577,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="poligonos.40">
+	<name>Rengo Norte 2</name>
+	<description>Código: &lt;br&gt;Local: &lt;br&gt;Calle: &lt;br&gt;Población: &lt;br&gt;Tipo de cliente: &lt;br&gt;Cod. Transporte: &lt;br&gt;Transporte: &lt;br&gt;Frecuencia: M J&lt;br&gt;Kilos Promedio Semanal: &lt;br&gt;Latitud: &lt;br&gt;Longitud: </description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.8594905,-34.4030621,0 -70.856992,-34.4034159,0 -70.8552164,-34.4044143,0 -70.8499753,-34.4050516,0 -70.8442232,-34.4066112,0 -70.8414804,-34.4062382,0 -70.8404252,-34.4055844,0 -70.8317386,-34.409354,0 -70.8260379,-34.3988979,0 -70.8236705,-34.3890285,0 -70.8244859,-34.3873639,0 -70.839678,-34.3820161,0 -70.8438622,-34.3810066,0 -70.8447205,-34.3830609,0 -70.8458863,-34.3853027,0 -70.8463942,-34.3895066,0 -70.8494931,-34.3890161,0 -70.8524417,-34.3881891,0 -70.8542546,-34.3923854,0 -70.8559175,-34.3964933,0 -70.8575055,-34.3998928,0 -70.8583209,-34.401712,0 -70.8588655,-34.4023915,0 -70.8594905,-34.4030621,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="poligonos.41">
+	<name>Rgua Nororiente 1</name>
+	<description>Código: &lt;br&gt;Local: &lt;br&gt;Calle: &lt;br&gt;Población: &lt;br&gt;Tipo de cliente: &lt;br&gt;Cod. Transporte: &lt;br&gt;Transporte: &lt;br&gt;Frecuencia: &lt;br&gt;Kilos Promedio Semanal: &lt;br&gt;Latitud: &lt;br&gt;Longitud: </description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7116781,-34.1617408,0 -70.7202397,-34.1587401,0 -70.7216237,-34.1583406,0 -70.7222353,-34.1579233,0 -70.7245205,-34.1570622,0 -70.72628,-34.1564585,0 -70.7319449,-34.1558724,0 -70.7327737,-34.159894,0 -70.7337742,-34.1641907,0 -70.7343254,-34.1664722,0 -70.7347157,-34.1688424,0 -70.7360018,-34.1748609,0 -70.7361167,-34.1760459,0 -70.7362707,-34.1766029,0 -70.7358669,-34.1767693,0 -70.7331991,-34.1788438,0 -70.7297905,-34.1763156,0 -70.7285119,-34.1753742,0 -70.7279155,-34.1749479,0 -70.7274479,-34.1744683,0 -70.7270542,-34.1735961,0 -70.7269749,-34.1728993,0 -70.7272242,-34.1699433,0 -70.7206689,-34.1708133,0 -70.7116781,-34.1617408,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="poligonos.42">
+	<name>Rgua Centro 1</name>
+	<description>Código: &lt;br&gt;Local: &lt;br&gt;Calle: &lt;br&gt;Población: &lt;br&gt;Tipo de cliente: &lt;br&gt;Cod. Transporte: &lt;br&gt;Transporte: &lt;br&gt;Frecuencia: &lt;br&gt;Kilos Promedio Semanal: &lt;br&gt;Latitud: &lt;br&gt;Longitud: </description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7351881,-34.1709847,0 -70.7353003,-34.1709569,0 -70.735478,-34.1709703,0 -70.7355162,-34.1709858,0 -70.7363296,-34.1708809,0 -70.7366193,-34.170851,0 -70.7367158,-34.1708388,0 -70.7379416,-34.1706335,0 -70.7394797,-34.1704076,0 -70.740609,-34.1702877,0 -70.7408933,-34.1702655,0 -70.7412044,-34.1701768,0 -70.7421217,-34.1700458,0 -70.7435299,-34.1698861,0 -70.747513,-34.1693224,0 -70.7501684,-34.1689806,0 -70.7514075,-34.1688008,0 -70.7526361,-34.1686486,0 -70.7523678,-34.1696331,0 -70.7526574,-34.1708403,0 -70.7525823,-34.1711954,0 -70.7531027,-34.1730151,0 -70.7529187,-34.1732518,0 -70.7476203,-34.1739782,0 -70.7446645,-34.1745462,0 -70.7417928,-34.1750004,0 -70.7407967,-34.1752031,0 -70.7390533,-34.1756647,0 -70.7362707,-34.1766029,0 -70.7361167,-34.1760459,0 -70.7361484,-34.1756602,0 -70.7360331,-34.1749368,0 -70.7351881,-34.1709847,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="poligonos.43">
+	<name>Rgua Centro 2</name>
+	<description>Código: &lt;br&gt;Local: &lt;br&gt;Calle: &lt;br&gt;Población: &lt;br&gt;Tipo de cliente: &lt;br&gt;Cod. Transporte: &lt;br&gt;Transporte: &lt;br&gt;Frecuencia: &lt;br&gt;Kilos Promedio Semanal: &lt;br&gt;Latitud: &lt;br&gt;Longitud: </description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7345395,-34.16628,0 -70.7355797,-34.166129,0 -70.7366902,-34.1659759,0 -70.7374546,-34.1658627,0 -70.7385302,-34.1656918,0 -70.7398444,-34.1654898,0 -70.7416603,-34.1652146,0 -70.7425025,-34.165097,0 -70.7438597,-34.1649106,0 -70.7453698,-34.1647153,0 -70.7464802,-34.1645355,0 -70.7467511,-34.1659004,0 -70.7469362,-34.1667926,0 -70.7472125,-34.1680309,0 -70.7475316,-34.1693114,0 -70.7463461,-34.1694845,0 -70.7451029,-34.1696598,0 -70.744667,-34.169722,0 -70.7435217,-34.1698828,0 -70.7421927,-34.1700326,0 -70.7412044,-34.1701768,0 -70.7408933,-34.1702655,0 -70.7405874,-34.1702867,0 -70.7399745,-34.1703511,0 -70.7394944,-34.1704066,0 -70.7390733,-34.1704676,0 -70.7380192,-34.1706196,0 -70.7372735,-34.1707406,0 -70.7367425,-34.1708304,0 -70.7360216,-34.1709192,0 -70.735514,-34.1709825,0 -70.7354744,-34.1709758,0 -70.7353003,-34.1709569,0 -70.7351881,-34.1709847,0 -70.7347157,-34.1688424,0 -70.7343034,-34.166311,0 -70.7345395,-34.16628,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="poligonos.44">
+	<name>Rgua Mercado</name>
+	<description>Código: &lt;br&gt;Local: &lt;br&gt;Calle: &lt;br&gt;Población: &lt;br&gt;Tipo de cliente: &lt;br&gt;Cod. Transporte: &lt;br&gt;Transporte: &lt;br&gt;Frecuencia: &lt;br&gt;Kilos Promedio Semanal: &lt;br&gt;Latitud: &lt;br&gt;Longitud: </description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7513329,-34.163735,0 -70.7515099,-34.1643852,0 -70.7520598,-34.1665491,0 -70.7522046,-34.1670906,0 -70.7526123,-34.1686418,0 -70.7505604,-34.1689281,0 -70.7475262,-34.1693114,0 -70.7464748,-34.1645355,0 -70.7484361,-34.1642365,0 -70.749155,-34.16413,0 -70.75026,-34.1639569,0 -70.750893,-34.1638371,0 -70.7513329,-34.163735,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="poligonos.45">
+	<name>Rgua Norte 1</name>
+	<description>Código: &lt;br&gt;Local: &lt;br&gt;Calle: &lt;br&gt;Población: &lt;br&gt;Tipo de cliente: &lt;br&gt;Cod. Transporte: &lt;br&gt;Transporte: &lt;br&gt;Frecuencia: &lt;br&gt;Kilos Promedio Semanal: &lt;br&gt;Latitud: &lt;br&gt;Longitud: </description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7343034,-34.166311,0 -70.7319449,-34.1558724,0 -70.7281722,-34.1562166,0 -70.7284512,-34.1526475,0 -70.7288589,-34.1469828,0 -70.7292558,-34.1464412,0 -70.7329144,-34.1459617,0 -70.7342648,-34.1462355,0 -70.7360257,-34.1464145,0 -70.7384612,-34.146086,0 -70.7402743,-34.1453934,0 -70.7403682,-34.1452425,0 -70.7405801,-34.1455621,0 -70.7459392,-34.1435731,0 -70.7471301,-34.1479417,0 -70.7513383,-34.163735,0 -70.7464802,-34.1645355,0 -70.7343034,-34.166311,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="poligonos.46">
+	<name>Rgua Norte 2</name>
+	<description>Código: &lt;br&gt;Local: &lt;br&gt;Calle: &lt;br&gt;Población: &lt;br&gt;Tipo de cliente: &lt;br&gt;Cod. Transporte: &lt;br&gt;Transporte: &lt;br&gt;Frecuencia: &lt;br&gt;Kilos Promedio Semanal: &lt;br&gt;Latitud: &lt;br&gt;Longitud: </description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7459392,-34.1435731,0 -70.7405784,-34.145533,0 -70.7403852,-34.1452045,0 -70.740235,-34.1453998,0 -70.7396449,-34.1455996,0 -70.7385077,-34.1460658,0 -70.7360257,-34.1464145,0 -70.7346185,-34.1462522,0 -70.7338192,-34.146088,0 -70.7329144,-34.1459617,0 -70.7292558,-34.1464412,0 -70.7288303,-34.1466074,0 -70.729758,-34.1350832,0 -70.7297151,-34.1331827,0 -70.7287388,-34.1334047,0 -70.7258204,-34.1305744,0 -70.7283952,-34.1298932,0 -70.7309167,-34.1260779,0 -70.7335989,-34.1274279,0 -70.7362811,-34.1231648,0 -70.7400577,-34.1215128,0 -70.744478,-34.1384399,0 -70.7459392,-34.1435731,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="poligonos.47">
+	<name>Rgua Nororiente 2</name>
+	<description>Código: &lt;br&gt;Local: &lt;br&gt;Calle: &lt;br&gt;Población: &lt;br&gt;Tipo de cliente: &lt;br&gt;Cod. Transporte: V1602&lt;br&gt;Transporte: Manuel Yañez&lt;br&gt;Frecuencia: M J&lt;br&gt;Kilos Promedio Semanal: &lt;br&gt;Latitud: &lt;br&gt;Longitud: </description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7281551,-34.1562057,0 -70.726991,-34.1563477,0 -70.7262212,-34.1564587,0 -70.7254729,-34.1567295,0 -70.7244188,-34.1570891,0 -70.7230991,-34.1575929,0 -70.7222353,-34.1579233,0 -70.7216237,-34.1583406,0 -70.7200951,-34.1587847,0 -70.720079,-34.1587049,0 -70.7187888,-34.1568915,0 -70.7181827,-34.1558417,0 -70.7176704,-34.1549272,0 -70.7173592,-34.1543634,0 -70.7171849,-34.1540571,0 -70.7169971,-34.1533047,0 -70.7168603,-34.1526876,0 -70.7165036,-34.1511072,0 -70.7161013,-34.149216,0 -70.7084935,-34.1425097,0 -70.7043951,-34.1362049,0 -70.7258204,-34.1305744,0 -70.7287388,-34.1334047,0 -70.7297151,-34.1331827,0 -70.7281551,-34.1562057,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="poligonos.48">
+	<name>Rgua Nororiente 3 (Nueva)</name>
+	<description>Código: &lt;br&gt;Local: &lt;br&gt;Calle: &lt;br&gt;Población: &lt;br&gt;Tipo de cliente: &lt;br&gt;Cod. Transporte: V1602&lt;br&gt;Transporte: Manuel Yañez&lt;br&gt;Frecuencia: M S&lt;br&gt;Kilos Promedio Semanal: &lt;br&gt;Latitud: &lt;br&gt;Longitud: </description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7200951,-34.1587847,0 -70.718816,-34.1591779,0 -70.7181293,-34.1594132,0 -70.7177082,-34.1595486,0 -70.7167319,-34.1599059,0 -70.7156992,-34.1602832,0 -70.7148839,-34.160574,0 -70.713524,-34.1610733,0 -70.7116572,-34.161748,0 -70.7075131,-34.1573291,0 -70.7049972,-34.1546212,0 -70.7016606,-34.1510165,0 -70.6910347,-34.1395839,0 -70.7043951,-34.1362049,0 -70.7084935,-34.1425097,0 -70.7161013,-34.149216,0 -70.7171849,-34.1540571,0 -70.7185649,-34.156523,0 -70.719102,-34.1573453,0 -70.7196267,-34.1580872,0 -70.7198797,-34.1584315,0 -70.720079,-34.1587049,0 -70.7200951,-34.1587847,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="poligonos.49">
+	<name>Idahue</name>
+	<description>Código: &lt;br&gt;Local: &lt;br&gt;Calle: &lt;br&gt;Población: &lt;br&gt;Tipo de cliente: &lt;br&gt;Cod. Transporte: Ricardo Orayan&lt;br&gt;Transporte: V1432&lt;br&gt;Frecuencia: L W V&lt;br&gt;Kilos Promedio Semanal: &lt;br&gt;Latitud: &lt;br&gt;Longitud: </description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.1570037,-34.3621646,0 -71.1425842,-34.3613144,0 -71.1255039,-34.3259514,0 -71.0861934,-34.309505,0 -71.0898522,-34.3040545,0 -71.0937894,-34.2986748,0 -71.1057643,-34.2829495,0 -71.1143459,-34.2738365,0 -71.1699642,-34.2863186,0 -71.1775173,-34.3195717,0 -71.1570037,-34.3621646,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="poligonos.50">
+	<name>Peumo</name>
+	<description>Código: &lt;br&gt;Local: &lt;br&gt;Calle: &lt;br&gt;Población: &lt;br&gt;Tipo de cliente: &lt;br&gt;Cod. Transporte: V1155&lt;br&gt;Transporte: Jorge Tobar&lt;br&gt;Frecuencia: M J S&lt;br&gt;Kilos Promedio Semanal: &lt;br&gt;Latitud: &lt;br&gt;Longitud: </description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.161495,-34.38016,0 -71.1672454,-34.370384,0 -71.1698634,-34.3682586,0 -71.1981017,-34.3530251,0 -71.2074143,-34.359544,0 -71.2155254,-34.3899349,0 -71.179734,-34.404666,0 -71.1765582,-34.4124554,0 -71.1641128,-34.4136592,0 -71.1578399,-34.4171514,0 -71.1486482,-34.4171735,0 -71.1308662,-34.4119051,0 -71.161495,-34.38016,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="poligonos.51">
+	<name>Requinoa Poniente</name>
+	<description>Código: &lt;br&gt;Local: &lt;br&gt;Calle: &lt;br&gt;Población: &lt;br&gt;Tipo de cliente: &lt;br&gt;Cod. Transporte: V4019&lt;br&gt;Transporte: Carlos Velasquez&lt;br&gt;Frecuencia: J S&lt;br&gt;Kilos Promedio Semanal: &lt;br&gt;Latitud: &lt;br&gt;Longitud: </description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.7942956,-34.2398696,0 -70.8240786,-34.2330571,0 -70.8405617,-34.2451163,0 -70.8423608,-34.2524632,0 -70.8507292,-34.2852333,0 -70.8608178,-34.2939873,0 -70.8544628,-34.3015249,0 -70.8279305,-34.314003,0 -70.8268721,-34.3107613,0 -70.8259211,-34.307307,0 -70.824663,-34.300611,0 -70.8218901,-34.2869353,0 -70.8086293,-34.2642747,0 -70.781343,-34.2725452,0 -70.7700322,-34.2425103,0 -70.7942956,-34.2398696,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="poligonos.52">
+	<name>Requinoa Oriente</name>
+	<description>Código: &lt;br&gt;Local: &lt;br&gt;Calle: &lt;br&gt;Población: &lt;br&gt;Tipo de cliente: &lt;br&gt;Cod. Transporte: V2147&lt;br&gt;Transporte: Nelson Molinet&lt;br&gt;Frecuencia: L W V&lt;br&gt;Kilos Promedio Semanal: &lt;br&gt;Latitud: &lt;br&gt;Longitud: </description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.8086293,-34.2642747,0 -70.82041,-34.28708,0 -70.8267138,-34.3144304,0 -70.7046625,-34.3463259,0 -70.6842348,-34.3025196,0 -70.8086293,-34.2642747,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="poligonos.53">
+	<name>Zuñiga</name>
+	<description>Código: &lt;br&gt;Local: &lt;br&gt;Calle: &lt;br&gt;Población: &lt;br&gt;Tipo de cliente: &lt;br&gt;Cod. Transporte: V3294&lt;br&gt;Transporte: Luis Medina&lt;br&gt;Frecuencia: L&lt;br&gt;Kilos Promedio Semanal: &lt;br&gt;Latitud: &lt;br&gt;Longitud: </description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.1308662,-34.4119051,0 -71.1300079,-34.4122591,0 -71.0966198,-34.4248623,0 -71.0767929,-34.3815929,0 -71.0512186,-34.331827,0 -71.0138113,-34.3239875,0 -71.0297077,-34.3094129,0 -71.0340305,-34.299815,0 -71.0331814,-34.2941041,0 -71.0505287,-34.3035666,0 -71.0837264,-34.3124538,0 -71.0928547,-34.3130369,0 -71.1255039,-34.3259514,0 -71.1425842,-34.3613144,0 -71.1466591,-34.375855,0 -71.1466591,-34.3812387,0 -71.142625,-34.3843555,0 -71.1368744,-34.3905886,0 -71.1300938,-34.3963962,0 -71.1308662,-34.4119051,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark id="poligonos.54">
+	<name>Codegua Norte</name>
+	<description>Código: &lt;br&gt;Local: &lt;br&gt;Calle: &lt;br&gt;Población: &lt;br&gt;Tipo de cliente: &lt;br&gt;Cod. Transporte: &lt;br&gt;Transporte: &lt;br&gt;Frecuencia: W&lt;br&gt;Kilos Promedio Semanal: &lt;br&gt;Latitud: &lt;br&gt;Longitud: </description>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-70.6098708,-34.0346903,0 -70.5924471,-34.0336946,0 -70.5939921,-34.0001152,0 -70.5963953,-33.987733,0 -70.6056651,-33.9641734,0 -70.6338175,-33.9371181,0 -70.6437739,-33.9337,0 -70.6504687,-33.9358363,0 -70.6569918,-33.9369757,0 -70.6638583,-33.938115,0 -70.6721838,-33.9534235,0 -70.6744154,-33.9594038,0 -70.6896289,-33.961753,0 -70.6898864,-33.9653836,0 -70.6868715,-33.9878199,0 -70.6906374,-34.0033528,0 -70.6951688,-34.0237524,0 -70.7197514,-34.0214317,0 -70.7227521,-34.0285411,0 -70.7249185,-34.0319205,0 -70.7208192,-34.0327393,0 -70.7046806,-34.0296391,0 -70.6984579,-34.0330356,0 -70.6919347,-34.0316841,0 -70.6829985,-34.0314184,0 -70.6820642,-34.03268,0 -70.6731378,-34.0307594,0 -70.668064,-34.0297113,0 -70.6593092,-34.0322008,0 -70.6495245,-34.0305648,0 -70.6381949,-34.0315607,0 -70.6349333,-34.0316318,0 -70.6192263,-34.0351171,0 -70.6098708,-34.0346903,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

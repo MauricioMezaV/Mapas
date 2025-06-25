@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Folder><name>puntos_industriales_con_nombre_de_poligono_1</name>
+  <Placemark id="puntos_industriales_con_nombre_de_poligono_1.1">
+	<name>Graneros Poniente</name>
+	<description>Código: 3200216329&lt;br&gt;Local: Cecinas Valdivia SPA&lt;br&gt;Calle: San Hernan 32 L 2&lt;br&gt;Población: Graneros&lt;br&gt;Tipo de cliente: Industriales&lt;br&gt;Cod. Transporte: &lt;br&gt;Transporte: &lt;br&gt;Frecuencia: L&lt;br&gt;Kilos Promedio Semanal: 918&lt;br&gt;Latitud: -34.0657643&lt;br&gt;Longitud: -70.7337585</description>
+      <Point><coordinates>-70.7337585,-34.0657643,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="puntos_industriales_con_nombre_de_poligono_1.2">
+	<name>Graneros Sur</name>
+	<description>Código: 3200079922&lt;br&gt;Local: Valdivia Pino Patricio Enrique&lt;br&gt;Calle: Camino Real 0182&lt;br&gt;Población: Graneros&lt;br&gt;Tipo de cliente: Industriales&lt;br&gt;Cod. Transporte: &lt;br&gt;Transporte: &lt;br&gt;Frecuencia: J S&lt;br&gt;Kilos Promedio Semanal: 1429&lt;br&gt;Latitud: -34.069&lt;br&gt;Longitud: -70.7321</description>
+      <Point><coordinates>-70.7321,-34.069,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="puntos_industriales_con_nombre_de_poligono_1.3">
+	<name>Lo Miranda Norte</name>
+	<description>Código: 3200166024&lt;br&gt;Local: Fab de Cecinas Betzabe Urzua Piña E&lt;br&gt;Calle: Rosa Zuñiga 154 Lo Miranda&lt;br&gt;Población: Doñihue&lt;br&gt;Tipo de cliente: Industriales&lt;br&gt;Cod. Transporte: &lt;br&gt;Transporte: &lt;br&gt;Frecuencia: &lt;br&gt;Kilos Promedio Semanal: 567&lt;br&gt;Latitud: -34.194799&lt;br&gt;Longitud: -70.893358</description>
+      <Point><coordinates>-70.893358,-34.194799,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="puntos_industriales_con_nombre_de_poligono_1.4">
+	<name>Lo Miranda Norte</name>
+	<description>Código: 3200168718&lt;br&gt;Local: Alimentos Gonzalo Alvear SPA&lt;br&gt;Calle: J Alcaino 108&lt;br&gt;Población: Doñihue&lt;br&gt;Tipo de cliente: Industriales&lt;br&gt;Cod. Transporte: &lt;br&gt;Transporte: &lt;br&gt;Frecuencia: &lt;br&gt;Kilos Promedio Semanal: 0&lt;br&gt;Latitud: -34.190418&lt;br&gt;Longitud: -70.894837</description>
+      <Point><coordinates>-70.894837,-34.190418,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="puntos_industriales_con_nombre_de_poligono_1.5">
+	<name>Doñihue</name>
+	<description>Código: 67507&lt;br&gt;Local: Faenadora Lo Miranda&lt;br&gt;Calle: Carretera H-30 3814 Lo Miranda&lt;br&gt;Población: Doñihue&lt;br&gt;Tipo de cliente: Industriales&lt;br&gt;Cod. Transporte: V0553&lt;br&gt;Transporte: V0553&lt;br&gt;Frecuencia: M J S&lt;br&gt;Kilos Promedio Semanal: 70&lt;br&gt;Latitud: -34.2088209&lt;br&gt;Longitud: -70.8946405</description>
+      <Point><coordinates>-70.8946405,-34.2088209,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="puntos_industriales_con_nombre_de_poligono_1.6">
+	<name>Machalí Poniente</name>
+	<description>Código: 3200189018&lt;br&gt;Local: Brasas Gourmet SPA&lt;br&gt;Calle: Comunidades Bravo 091 Lt C Pc 17&lt;br&gt;Población: Machalí&lt;br&gt;Tipo de cliente: Industriales&lt;br&gt;Cod. Transporte: &lt;br&gt;Transporte: &lt;br&gt;Frecuencia: &lt;br&gt;Kilos Promedio Semanal: 24&lt;br&gt;Latitud: -34.1652349&lt;br&gt;Longitud: -70.6659334</description>
+      <Point><coordinates>-70.6659334,-34.1652349,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="puntos_industriales_con_nombre_de_poligono_1.7">
+	<name>Punta de Cortés</name>
+	<description>Código: 64521&lt;br&gt;Local: Agricola Super Ltda&lt;br&gt;Calle: Cam. La Estrella 401 Of. 24&lt;br&gt;Población: Rancagua&lt;br&gt;Tipo de cliente: Industriales&lt;br&gt;Cod. Transporte: V3912&lt;br&gt;Transporte: V3912&lt;br&gt;Frecuencia: L W V&lt;br&gt;Kilos Promedio Semanal: 44&lt;br&gt;Latitud: -34.1773893&lt;br&gt;Longitud: -70.830201</description>
+      <Point><coordinates>-70.830201,-34.1773893,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="puntos_industriales_con_nombre_de_poligono_1.8">
+	<name>Rgua Nororiente 3 (Nueva)</name>
+	<description>Código: 3200164025&lt;br&gt;Local: Bodega Vasca Limitada&lt;br&gt;Calle: Parc 31 Los Molinos Quemados&lt;br&gt;Población: Rancagua&lt;br&gt;Tipo de cliente: Industriales&lt;br&gt;Cod. Transporte: V1602&lt;br&gt;Transporte: V1602&lt;br&gt;Frecuencia: M S&lt;br&gt;Kilos Promedio Semanal: 300&lt;br&gt;Latitud: -34.1550334&lt;br&gt;Longitud: -70.7060334</description>
+      <Point><coordinates>-70.7060334,-34.1550334,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="puntos_industriales_con_nombre_de_poligono_1.9">
+	<name>Rancagua Poniente 1</name>
+	<description>Código: 3200123235&lt;br&gt;Local: Fabrica de Cecinas Don Nelson SPA&lt;br&gt;Calle: Lourdes 680 Local B&lt;br&gt;Población: Rancagua&lt;br&gt;Tipo de cliente: Industriales&lt;br&gt;Cod. Transporte: V3912&lt;br&gt;Transporte: V3912&lt;br&gt;Frecuencia: L W V&lt;br&gt;Kilos Promedio Semanal: 23&lt;br&gt;Latitud: -34.172971&lt;br&gt;Longitud: -70.758762</description>
+      <Point><coordinates>-70.758762,-34.172971,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="puntos_industriales_con_nombre_de_poligono_1.10">
+	<name>Rancagua Sur 1</name>
+	<description>Código: 3200179246&lt;br&gt;Local: Fabrica y Comercializadora SPA&lt;br&gt;Calle: Soraya Cortez 1259&lt;br&gt;Población: Rancagua&lt;br&gt;Tipo de cliente: Industriales&lt;br&gt;Cod. Transporte: V4055&lt;br&gt;Transporte: V4055&lt;br&gt;Frecuencia: L W V&lt;br&gt;Kilos Promedio Semanal: 52&lt;br&gt;Latitud: -34.18503&lt;br&gt;Longitud: -70.757018</description>
+      <Point><coordinates>-70.757018,-34.18503,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="puntos_industriales_con_nombre_de_poligono_1.11">
+	<name>Rancagua Sur 1</name>
+	<description>Código: 3200227907&lt;br&gt;Local: Distribuidora de Alimentos A R A SPA&lt;br&gt;Calle: Freire 1194 San Jose&lt;br&gt;Población: Rancagua&lt;br&gt;Tipo de cliente: Industriales&lt;br&gt;Cod. Transporte: V4055&lt;br&gt;Transporte: V4055&lt;br&gt;Frecuencia: L W V&lt;br&gt;Kilos Promedio Semanal: 0&lt;br&gt;Latitud: -34.1807989&lt;br&gt;Longitud: -70.7374109</description>
+      <Point><coordinates>-70.7374109,-34.1807989,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="puntos_industriales_con_nombre_de_poligono_1.12">
+	<description>Código: 67505&lt;br&gt;Local: Procesadora de Alim del Sur Ltda&lt;br&gt;Calle: Carretera H-50 Cam. Qta Tilcoco&lt;br&gt;Población: Rengo&lt;br&gt;Tipo de cliente: Industriales&lt;br&gt;Cod. Transporte: V1431&lt;br&gt;Transporte: Quintana Gacitua David Antonio&lt;br&gt;Frecuencia: L&lt;br&gt;Kilos Promedio Semanal: 0&lt;br&gt;Latitud: -34.3436289&lt;br&gt;Longitud: -70.8393964</description>
+      <Point><coordinates>-70.8393964,-34.3436289,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="puntos_industriales_con_nombre_de_poligono_1.13">
+	<name>Rancagua Poniente 2</name>
+	<description>Código: 68314&lt;br&gt;Local: Faenadora San Vicente Ltda&lt;br&gt;Calle: Carretera H-66 KM 19,2&lt;br&gt;Población: San Vicente&lt;br&gt;Tipo de cliente: Industriales&lt;br&gt;Cod. Transporte: V3912&lt;br&gt;Transporte: V3912&lt;br&gt;Frecuencia: M J S&lt;br&gt;Kilos Promedio Semanal: 0&lt;br&gt;Latitud: -34.1634544&lt;br&gt;Longitud: -70.7531668</description>
+      <Point><coordinates>-70.7531668,-34.1634544,0</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
