@@ -2,6 +2,10 @@ import geopandas as gpd
 import pandas as pd
 import re
 from fiona import listlayers
+import os
+
+output_dir = 'outputs'
+os.makedirs(output_dir, exist_ok=True)
 
 def parse_desc(desc):
     if pd.isnull(desc):
@@ -38,7 +42,7 @@ def update_description(row):
         desc = replace_or_append(r'Frecuencia:\s*[^\n<]+', f'Frecuencia: {frecuencia.group(1).strip()}', desc)
     return desc.strip()
 
-def procesar_kml(kml_file):
+def process_kml(kml_file):
     columnas_requeridas = [
         'Código', 'Local', 'Calle', 'Población', 'Tipo de cliente',
         'Cod. Transporte', 'Transporte', 'Frecuencia',
@@ -78,14 +82,15 @@ def procesar_kml(kml_file):
         joined['Description'] = joined.apply(update_description, axis=1)
         joined['Name'] = joined['Name_polygon']
         total = len(joined)
+
         for i in range(0, total, max_elements):
             chunk = joined.iloc[i:i+max_elements]
-            chunk[columns_to_save].to_file(
-                f'puntos_{tipo_key}_con_nombre_de_poligono_{i//max_elements + 1}.kml',
-                driver='KML'
-            )
+            kml_output_path = os.path.join(output_dir,
+                f'puntos_{tipo_key}_con_nombre_de_poligono_{i//max_elements + 1}.kml')
+            chunk[columns_to_save].to_file(kml_output_path, driver='KML')
             chunk_csv = chunk[columns_to_save].copy()
             desc_df = chunk_csv['Description'].apply(parse_desc).apply(pd.Series)
+
             for col in columnas_requeridas:
                 if col not in desc_df.columns:
                     desc_df[col] = None
@@ -94,6 +99,8 @@ def procesar_kml(kml_file):
 
     if csv_chunks:
         all_points_df = pd.concat(csv_chunks, ignore_index=True)
-        all_points_df.to_csv('ClientesActualizados.csv', index=False)
+        csv_output_path = os.path.join(output_dir, 'ClientesActualizados.csv')
+        all_points_df.to_csv(csv_output_path, index=False)
 
-    map_polygons[['Name', 'Description', 'geometry']].to_file('poligonos.kml', driver='KML')
+    polygon_output_path = os.path.join(output_dir, 'poligonos.kml')
+    map_polygons[['Name', 'Description', 'geometry']].to_file(polygon_output_path, driver='KML')
