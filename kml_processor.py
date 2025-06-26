@@ -42,7 +42,9 @@ def update_description(row):
         desc = replace_or_append(r'Frecuencia:\s*[^\n<]+', f'Frecuencia: {frecuencia.group(1).strip()}', desc)
     return desc.strip()
 
-def process_kml(kml_file):
+def process_kml(kml_file, output_dir):
+    os.makedirs(output_dir, exist_ok=True)
+    # ...resto del código igual, usando output_dir para guardar archivos...
     columnas_requeridas = [
         'Código', 'Local', 'Calle', 'Población', 'Tipo de cliente',
         'Cod. Transporte', 'Transporte', 'Frecuencia',
@@ -86,7 +88,7 @@ def process_kml(kml_file):
         for i in range(0, total, max_elements):
             chunk = joined.iloc[i:i+max_elements]
             kml_output_path = os.path.join(output_dir,
-                f'puntos_{tipo_key}_con_nombre_de_poligono_{i//max_elements + 1}.kml')
+                f'clientes_{tipo_key}_asignados_{i//max_elements + 1}.kml')
             chunk[columns_to_save].to_file(kml_output_path, driver='KML')
             chunk_csv = chunk[columns_to_save].copy()
             desc_df = chunk_csv['Description'].apply(parse_desc).apply(pd.Series)

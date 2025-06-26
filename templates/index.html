@@ -1,14 +1,46 @@
 <!DOCTYPE html>
+
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <title>Procesador de KML</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Sube tu archivo KML</h1>
-    <form method="POST" enctype="multipart/form-data">
-        <input type="file" name="kmlfile" accept=".kml" required>
-        <button type="submit">Procesar</button>
-    </form>
+    <h1>Procesador de KML</h1>
+    <div class="flex-container">
+        <!-- Input (izquierda) -->
+        <div class="input-panel">
+            <h3>Subir archivo KML</h3>
+            <p>Sube un archivo KML para procesarlo y descargar el resultado.</p>
+            {% if error %}
+                <div class="error">{{ error }}</div>
+            {% endif %}
+            <form method="POST" enctype="multipart/form-data">
+                <input type="file" name="kmlfile" accept=".kml" required>
+                <button type="submit">Procesar</button>
+            </form>
+        </div>
+        <!-- Output (derecha) -->
+        <div class="output-panel">
+            <h3>Resultados</h3>
+            {% if success %}
+                <div class="success">{{ success }}</div>
+                <ul>
+                    {% for file in files %}
+                    <li>
+                        <a href="{{ url_for('download_file', filename=file) }}">
+                            {{ file }}
+                            <i class="fa-solid fa-download" style="margin-left:10px;"></i>
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            {% else %}
+                <p>Cuando proceses un archivo, aquí aparecerán los enlaces de descarga.</p>
+            {% endif %}
+        </div>
+    </div>
 </body>
 </html>
