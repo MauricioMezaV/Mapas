@@ -4,6 +4,7 @@ import shutil
 import uuid
 from kml_processor import process_kml
 import time
+import openpyxl
 
 app = Flask(__name__)
 app.secret_key = 'algo-muy-seguro'  # Necesario para usar sesiones
@@ -50,15 +51,6 @@ def index():
         else:
             error = "Por favor, sube un archivo KML válido."
     return render_template('index.html', files=files, success=success, error=error)
-
-@app.route('/download')
-def download():
-    user_id = session.get('user_id')
-    if not user_id:
-        return redirect(url_for('index'))
-    output_dir = os.path.join(OUTPUTS_ROOT, user_id)
-    files = os.listdir(output_dir) if os.path.exists(output_dir) else []
-    return render_template('download.html', files=files)
 
 @app.route('/outputs/<filename>')
 def download_file(filename):

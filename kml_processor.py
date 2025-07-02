@@ -44,7 +44,6 @@ def update_description(row):
 
 def process_kml(kml_file, output_dir):
     os.makedirs(output_dir, exist_ok=True)
-    # ...resto del código igual, usando output_dir para guardar archivos...
     columnas_requeridas = [
         'Código', 'Local', 'Calle', 'Población', 'Tipo de cliente',
         'Cod. Transporte', 'Transporte', 'Frecuencia',
@@ -101,8 +100,9 @@ def process_kml(kml_file, output_dir):
 
     if csv_chunks:
         all_points_df = pd.concat(csv_chunks, ignore_index=True)
-        csv_output_path = os.path.join(output_dir, 'ClientesActualizados.csv')
-        all_points_df.to_csv(csv_output_path, index=False)
+        # Guardar como archivo Excel (xlsx)
+        xlsx_output_path = os.path.join(output_dir, 'clientes_asignados.xlsx')
+        all_points_df.to_excel(xlsx_output_path, index=False)
 
     polygon_output_path = os.path.join(output_dir, 'poligonos.kml')
     map_polygons[['Name', 'Description', 'geometry']].to_file(polygon_output_path, driver='KML')
