@@ -13,14 +13,18 @@ OUTPUTS_ROOT = 'outputs'
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 os.makedirs(OUTPUTS_ROOT, exist_ok=True)
 
-def clean_old_outputs(directorio, horas=1):
+def clean_old_outputs(directorio, horas=1, user_id=None):
     ahora = time.time()
-    for nombre_carpeta in os.listdir(directorio):
-        ruta_carpeta = os.path.join(directorio, nombre_carpeta)
-        if os.path.isdir(ruta_carpeta):
-            # Si la carpeta es más vieja que 'horas'
-            if ahora - os.path.getmtime(ruta_carpeta) > horas * 3600:
-                shutil.rmtree(ruta_carpeta)
+    for nombre in os.listdir(directorio):
+        ruta = os.path.join(directorio, nombre)
+        if os.path.isdir(ruta):
+            # Elimina carpetas si son viejas o corresponden al usuario actual
+            if (ahora - os.path.getmtime(ruta) > horas * 3600) or (user_id and nombre == user_id):
+                shutil.rmtree(ruta)
+        elif os.path.isfile(ruta):
+            # Elimina archivos si son viejos o corresponden al usuario actual
+            if (ahora - os.path.getmtime(ruta) > horas * 3600) or (user_id and nombre.startswith(user_id)):
+                os.remove(ruta)
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
@@ -30,7 +34,7 @@ def index():
     output_filename = None
 
     if request.method == 'POST':
-        clean_old_outputs(OUTPUTS_ROOT, horas=24)
+        clean_old_outputs(OUTPUTS_ROOT, horas=1)
         file = request.files['kmlfile']
         if file and file.filename.endswith('.kml'):
             user_id = str(uuid.uuid4())
