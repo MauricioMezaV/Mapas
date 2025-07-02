@@ -4,7 +4,6 @@ import shutil
 import uuid
 from kml_processor import process_kml
 import time
-import openpyxl
 
 app = Flask(__name__)
 app.secret_key = 'algo-muy-seguro'  # Necesario para usar sesiones
