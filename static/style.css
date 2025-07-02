@@ -1,19 +1,55 @@
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100vh;
+    display: block; /* Cambia a block para alineación izquierda */
     margin: 0;
-    justify-content: center;
     background-color: #0a1128; /* azul marino bien oscuro */
     color: #fff; /* letra de color blanco */
     font-family: 'Poppins', sans-serif;
-    font-size: 0.9rem;
+    font-size: 1.1rem; /* Más grande */
+}
+
+.main-header {
+    display: flex;
+    align-items: center;
+    padding: 28px 40px 16px 40px;
+    background: none;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.header-title {
+    font-size: 2.0rem; /* Más grande */
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
 }
 
 h1, h2, h3 {
     color: #e65100;
     font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem; /* Más grande */
+}
+
+.flex-container {
+    display: flex;
+    justify-content: flex-start; /* Alineado a la izquierda */
+    align-items: flex-start;
+    gap: 48px;
+    margin-top: 20px;
+    margin-left: 40px; /* Separación del borde izquierdo */
+}
+
+.input-panel, .output-panel {
+    background: #112244;
+    padding: 36px 28px;
+    border-radius: 12px;
+    min-width: 360px;
+    max-width: 440px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    font-size: 1.08rem; /* Más grande */
+}
+
+.input-panel h3, .output-panel h3 {
+    text-align: center;
+    width: 100%;
 }
 
 form {
