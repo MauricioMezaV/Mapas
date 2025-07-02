@@ -4,6 +4,7 @@ import re
 from fiona import listlayers
 import os
 
+
 output_dir = 'outputs'
 os.makedirs(output_dir, exist_ok=True)
 
@@ -101,8 +102,19 @@ def process_kml(kml_file, output_dir):
 
     if csv_chunks:
         all_points_df = pd.concat(csv_chunks, ignore_index=True)
-        csv_output_path = os.path.join(output_dir, 'ClientesActualizados.csv')
-        all_points_df.to_csv(csv_output_path, index=False)
-
+        # guardar el archivo como xlsx
+        xlsx_output_path = os.path.join(output_dir, 'ClientesActualizados.xlsx')
+        all_points_df.to_excel(xlsx_output_path, index=False)
+    else:
+        print("No se generaron puntos para los tipos de clientes especificados.")
+    # Guardar los puntos en un archivo KML
+    points_output_path = os.path.join(output_dir, 'puntos.kml')
+    map_points[['Name', 'Description', 'geometry']].to_file(points_output_path, driver='KML')
+    # Guardar los polígonos en un archivo KML
+    if map_polygons.empty:  # Si no hay polígonos, no se crea el archivo
+        print("No se encontraron polígonos para guardar.")
+        return
     polygon_output_path = os.path.join(output_dir, 'poligonos.kml')
     map_polygons[['Name', 'Description', 'geometry']].to_file(polygon_output_path, driver='KML')
+    print(f"Archivos procesados y guardados en: {output_dir}")
+    return output_dir  # Retorna el directorio de salida para uso posterior 
