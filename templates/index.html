@@ -3,20 +3,20 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Procesador de KML</title>
+    <title>Procesador ZR</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header style="display: flex; align-items: center; padding: 16px;">
         <img src="{{ url_for('static', filename='assets/logo.webp') }}" alt="Logo" style="height: 48px; margin-right: 16px;">
-        <span style="font-size: 1.5rem; font-weight: 600; font-family: 'Poppins', sans-serif;">Procesador de KML</span>
+        <span style="font-size: 1.5rem; font-weight: 600; font-family: 'Poppins', sans-serif;">Asignación automática de zonas de reparto</span>
     </header>
     <div class="flex-container">
         <!-- Input (izquierda) -->
         <div class="input-panel">
-            <h3>Subir archivo KML</h3>
-            <p>Sube un archivo KML para procesarlo y descargar el resultado.</p>
+            <h3>Subir archivo .KML</h3>
+            <p>Sube tu archivo .KML a procesar.</p>
             {% if error %}
                 <div class="error">{{ error }}</div>
             {% endif %}
@@ -41,9 +41,24 @@
                     {% endfor %}
                 </ul>
             {% else %}
-                <p>Cuando proceses un archivo, aquí aparecerán los enlaces de descarga.</p>
+                <p>Esperando procesamiento...</p>
             {% endif %}
         </div>
     </div>
+    <div id="loader-overlay">
+        <div class="loader"></div>
+        <span class="loader-text">Procesando archivo, por favor espera...</span>
+    </div>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const form = document.querySelector('form');
+        const loader = document.getElementById('loader-overlay');
+        if(form && loader) {
+            form.addEventListener('submit', function() {
+            loader.style.display = 'flex';
+            });
+        }
+    });
+    </script>
 </body>
 </html>
