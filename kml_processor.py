@@ -1,109 +1,117 @@
-import geopandas as gpd
-import pandas as pd
-import re
-from fiona import listlayers
 import os
-import openpyxl
+import pandas as pd
+import geopandas as gpd
+import fiona
+import re
 
-output_dir = 'outputs'
-os.makedirs(output_dir, exist_ok=True)
+def listlayers(kml_file):
+    return fiona.listlayers(kml_file)
+
+def get_column_case_insensitive(df, candidates):
+    for col in df.columns:
+        for cand in candidates:
+            if col.lower() == cand.lower():
+                return col
+    return None
 
 def parse_desc(desc):
     if pd.isnull(desc):
         return {}
-    pairs = re.findall(r'([^:<>\n]+):\s*([^<>\n]+)', desc)
-    return {k.strip(): v.strip() for k, v in pairs}
-
-def replace_or_append(pattern, value, desc):
-    if re.search(pattern, desc):
-        return re.sub(pattern, value, desc)
-    elif value:
-        return (desc + ('\n' if desc and not desc.endswith('\n') else '') + value).strip()
-    return desc
-
-def get_tipo_cliente(desc):
-    if pd.isnull(desc):
-        return None
-    match = re.search(r'Tipo de cliente:\s*([^\n<]+)', desc)
-    return match.group(1).strip() if match else None
-
-def update_description(row):
-    desc_point = row['Description_point'] or ''
-    desc_poly = row['Description_polygon']
-    desc_poly_str = str(desc_poly) if pd.notnull(desc_poly) else ''
-    cod_transporte = re.search(r'Cod\. Transporte:\s*([^\n<]+)', desc_poly_str)
-    transporte = re.search(r'Transporte:\s*([^\n<]+)', desc_poly_str)
-    frecuencia = re.search(r'Frecuencia:\s*([^\n<]+)', desc_poly_str)
-    desc = desc_point
-    if cod_transporte:
-        desc = replace_or_append(r'Cod\. Transporte:\s*[^\n<]+', f'Cod. Transporte: {cod_transporte.group(1).strip()}', desc)
-    if transporte:
-        desc = replace_or_append(r'Transporte:\s*[^\n<]+', f'Transporte: {transporte.group(1).strip()}', desc)
-    if frecuencia:
-        desc = replace_or_append(r'Frecuencia:\s*[^\n<]+', f'Frecuencia: {frecuencia.group(1).strip()}', desc)
-    return desc.strip()
+    if '<br>' in desc:
+        parts = desc.split('<br>')
+    else:
+        parts = desc.split(',')
+    result = {}
+    for part in parts:
+        match = re.match(r'([^:<>\n]+):\s*([^<>\n]+)', part)
+        if match:
+            k, v = match.groups()
+            result[k.strip()] = v.strip()
+    return result
 
 def process_kml(kml_file, output_dir):
     os.makedirs(output_dir, exist_ok=True)
-    columnas_requeridas = [
-        'Código', 'Local', 'Calle', 'Población', 'Tipo de cliente',
-        'Cod. Transporte', 'Transporte', 'Frecuencia',
-        'Kilos Promedio Semanal', 'Latitud', 'Longitud'
-    ]
-    tipos_clientes = {
-        'supermercados': 'Supermercados',
-        'foodservice': 'Foodservice',
-        'tradicional': 'Tradicional',
-        'industriales': 'Industriales'
-    }
-    columns_to_save = ['Name', 'Description', 'geometry']
-    max_elements = 2000
-    csv_chunks = []
-
     layers = listlayers(kml_file)
+
     gdfs = [gpd.read_file(kml_file, driver='KML', layer=layer) for layer in layers]
     mapf_gdf = gpd.GeoDataFrame(pd.concat(gdfs, ignore_index=True), crs="EPSG:4326")
+    print("Columnas encontradas en el KML:", list(mapf_gdf.columns))
 
-    map_polygons = mapf_gdf[mapf_gdf.geometry.type == 'Polygon']
-    map_points = mapf_gdf[mapf_gdf.geometry.type == 'Point']
+    name_col = get_column_case_insensitive(mapf_gdf, ['Name', 'name', 'NOMBRE', 'nombre', 'title'])
+    desc_col = get_column_case_insensitive(mapf_gdf, ['Description', 'description', 'DESCRIPCION', 'descripcion', 'detalle'])
+    geom_col = get_column_case_insensitive(mapf_gdf, ['geometry', 'geom', 'Geometry'])
 
-    map_points['tipo_cliente'] = map_points['Description'].apply(get_tipo_cliente)
+    if name_col is None:
+        raise ValueError("No se encontró una columna de nombre ('Name', 'name', 'NOMBRE') en el archivo KML.")
+    if desc_col is None:
+        raise ValueError("No se encontró una columna de descripción ('Description', 'description', 'DESCRIPCION') en el archivo KML.")
+    if geom_col is None:
+        raise ValueError("No se encontró una columna de geometría ('geometry', 'geom', 'Geometry') en el archivo KML.")
+    
+    map_polygons = mapf_gdf[mapf_gdf.geometry.type == 'Polygon'][[name_col, desc_col, geom_col]]
+    map_points = mapf_gdf[mapf_gdf.geometry.type == 'Point'][[name_col, desc_col, geom_col]]
 
-    for tipo_key, tipo_val in tipos_clientes.items():
-        mapa_tipo = map_points[map_points['tipo_cliente'] == tipo_val].reset_index(drop=True)
-        if mapa_tipo.empty:
-            continue
-        joined = gpd.sjoin(
-            mapa_tipo,
-            map_polygons[['Name', 'Description', 'geometry']],
-            how='left',
-            predicate='within',
-            lsuffix='point',
-            rsuffix='polygon'
-        )
-        joined['Description'] = joined.apply(update_description, axis=1)
-        joined['Name'] = joined['Name_polygon']
-        total = len(joined)
+    print("Cantidad de clientes:", len(map_points))
+    print("Cantidad de zonas de reparto:", len(map_polygons))
 
-        for i in range(0, total, max_elements):
-            chunk = joined.iloc[i:i+max_elements]
-            kml_output_path = os.path.join(output_dir,
-                f'clientes_{tipo_key}_asignados_{i//max_elements + 1}.kml')
-            chunk[columns_to_save].to_file(kml_output_path, driver='KML')
-            chunk_csv = chunk[columns_to_save].copy()
-            desc_df = chunk_csv['Description'].apply(parse_desc).apply(pd.Series)
+    if map_points.empty:
+        raise ValueError("No se encontraron clientes en el archivo KML.")
+    if map_polygons.empty:
+        raise ValueError("No se encontraron zonas en el archivo KML.")
 
-            for col in columnas_requeridas:
-                if col not in desc_df.columns:
-                    desc_df[col] = None
-            final_csv = pd.concat([chunk_csv[['Name']], desc_df[columnas_requeridas]], axis=1)
-            csv_chunks.append(final_csv)
+    joined = gpd.sjoin(
+        map_points,
+        map_polygons,
+        how='left',
+        predicate='within',
+        lsuffix='point',
+        rsuffix='polygon'
+    )
 
-    if csv_chunks:
-        all_points_df = pd.concat(csv_chunks, ignore_index=True)
-        # Guardar como archivo Excel (xlsx)
-        xlsx_output_path = os.path.join(output_dir, 'clientes_asignados.xlsx')
-        all_points_df.to_excel(xlsx_output_path, index=False)
+    point_name_col = f"{name_col}_point" if f"{name_col}_point" in joined.columns else name_col
+    point_desc_col = f"{desc_col}_point" if f"{desc_col}_point" in joined.columns else desc_col
+    point_geom_col = f"{geom_col}_point" if f"{geom_col}_point" in joined.columns else geom_col
+    poly_name_col = f"{name_col}_polygon" if f"{name_col}_polygon" in joined.columns else (f"{name_col}_right" if f"{name_col}_right" in joined.columns else name_col)
+    poly_desc_col = f"{desc_col}_polygon" if f"{desc_col}_polygon" in joined.columns else (f"{desc_col}_right" if f"{desc_col}_right" in joined.columns else desc_col)
+    poly_geom_col = f"{geom_col}_polygon" if f"{geom_col}_polygon" in joined.columns else (f"{geom_col}_right" if f"{geom_col}_right" in joined.columns else geom_col)
+    
+    joined = joined.drop_duplicates(subset=[point_name_col, point_desc_col, point_geom_col])
 
-    polygon_output_path = os.path.join(output_dir, 'poligonos.kml')
-    map_polygons[['Name', 'Description', 'geometry']].to_file(polygon_output_path, driver='KML')
+    # Renombra columnas para claridad
+    joined = joined.rename(columns={
+        point_name_col: "Cliente_Nombre",
+        point_desc_col: "Cliente_Descripcion",
+        poly_name_col: "Zona_Nombre",
+        poly_desc_col: "Zona_Descripcion",
+        point_geom_col: "Cliente_Geometry",
+        poly_geom_col: "Zona_Geometry",
+    })
+
+    if "Zona_Nombre" not in joined.columns:
+        joined["Zona_Nombre"] = None
+    if "Zona_Descripcion" not in joined.columns:
+        joined["Zona_Descripcion"] = None
+
+    # Aplica parse_desc a la descripción del cliente y del polígono y expande a columnas
+    desc_cliente_df = joined['Cliente_Descripcion'].apply(parse_desc).apply(pd.Series)
+    desc_poligono_df = joined['Zona_Descripcion'].apply(parse_desc).apply(pd.Series)
+
+    desc_cliente_df = desc_cliente_df.add_prefix('Cliente_')
+    desc_poligono_df = desc_poligono_df.add_prefix('Zona_')
+
+    # Convierte geometrías a WKT
+    joined['Cliente_Geometry'] = joined['Cliente_Geometry'].apply(lambda g: g.wkt if pd.notnull(g) else None)
+    joined['Zona_Geometry'] = joined['Zona_Geometry'].apply(lambda g: g.wkt if pd.notnull(g) else None)
+
+    result = pd.concat([joined.reset_index(drop=True), desc_cliente_df, desc_poligono_df], axis=1)
+
+    columnas_finales = (
+        ['Cliente_Nombre', 'Zona_Nombre']
+        + list(desc_cliente_df.columns)
+        + list(desc_poligono_df.columns)
+        + ['Cliente_Geometry', 'Zona_Geometry']
+    )
+    result = result[columnas_finales]
+
+    output_path = os.path.join(output_dir, 'clientes_con_nuevazona.xlsx')
+    result.to_excel(output_path, index=False)
