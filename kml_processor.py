@@ -59,59 +59,114 @@ def process_kml(kml_file, output_dir):
     if map_polygons.empty:
         raise ValueError("No se encontraron zonas en el archivo KML.")
 
+    # Crear archivo Excel de polígonos antes del sjoin
+    polygons_for_export = map_polygons.copy()
+    polygons_for_export = polygons_for_export.rename(columns={
+        name_col: "zona_nombre",
+        desc_col: "zona_descripcion",
+        geom_col: "zona_geometry"
+    })
+    
+    # Convertir geometría a WKT para el Excel
+    polygons_for_export['zona_geometry'] = polygons_for_export['zona_geometry'].apply(lambda g: g.wkt if pd.notnull(g) else None)
+    
+    # Expandir las descripciones de los polígonos
+    zona_desc_expanded = polygons_for_export['zona_descripcion'].apply(parse_desc).apply(pd.Series)
+    if not zona_desc_expanded.empty:
+        zona_desc_expanded = zona_desc_expanded.add_prefix('zona_')
+    
+    # Crear DataFrame final para polígonos
+    polygons_result = pd.concat([
+        polygons_for_export[['zona_nombre', 'zona_geometry']].reset_index(drop=True),
+        zona_desc_expanded.reset_index(drop=True)
+    ], axis=1)
+    
+    # Ordenar columnas: nombre, descripción expandida, geometría
+    cols_zona_base = ['zona_nombre']
+    cols_zona_desc = [c for c in polygons_result.columns if c.startswith('zona_') and c not in ['zona_nombre', 'zona_geometry']]
+    cols_zona_geom = ['zona_geometry']
+    polygons_final_cols = cols_zona_base + cols_zona_desc + cols_zona_geom
+    polygons_final_cols = [c for c in polygons_final_cols if c in polygons_result.columns]
+    
+    polygons_result = polygons_result[polygons_final_cols]
+    
+    # Guardar archivo Excel de polígonos
+    polygons_output_path = os.path.join(output_dir, 'zonas_para_google_maps.xlsx')
+    polygons_result.to_excel(polygons_output_path, index=False)
+    print(f"Archivo de zonas guardado en: {polygons_output_path}")
+
+    # Continuar con el proceso original
     joined = gpd.sjoin(
         map_points,
         map_polygons,
         how='left',
         predicate='within',
-        lsuffix='point',
-        rsuffix='polygon'
+        lsuffix='cliente',
+        rsuffix='zona'
     )
 
-    point_name_col = f"{name_col}_point" if f"{name_col}_point" in joined.columns else name_col
-    point_desc_col = f"{desc_col}_point" if f"{desc_col}_point" in joined.columns else desc_col
-    point_geom_col = f"{geom_col}_point" if f"{geom_col}_point" in joined.columns else geom_col
-    poly_name_col = f"{name_col}_polygon" if f"{name_col}_polygon" in joined.columns else (f"{name_col}_right" if f"{name_col}_right" in joined.columns else name_col)
-    poly_desc_col = f"{desc_col}_polygon" if f"{desc_col}_polygon" in joined.columns else (f"{desc_col}_right" if f"{desc_col}_right" in joined.columns else desc_col)
-    poly_geom_col = f"{geom_col}_polygon" if f"{geom_col}_polygon" in joined.columns else (f"{geom_col}_right" if f"{geom_col}_right" in joined.columns else geom_col)
-    
-    joined = joined.drop_duplicates(subset=[point_name_col, point_desc_col, point_geom_col])
+    # Determina los nombres de columnas después del sjoin
+    cliente_name_col = "Name_cliente"
+    cliente_desc_col = "Description_cliente"
+    cliente_geom_col = "geometry"
+    zona_name_col = "Name_zona"
+    zona_desc_col = "Description_zona"
+
+    joined = joined.drop_duplicates(subset=[cliente_name_col, cliente_desc_col, cliente_geom_col])
+    print("Columnas después del sjoin:", joined.columns)
 
     # Renombra columnas para claridad
     joined = joined.rename(columns={
-        point_name_col: "Cliente_Nombre",
-        point_desc_col: "Cliente_Descripcion",
-        poly_name_col: "Zona_Nombre",
-        poly_desc_col: "Zona_Descripcion",
-        point_geom_col: "Cliente_Geometry",
-        poly_geom_col: "Zona_Geometry",
+        cliente_name_col: "cliente_name",
+        cliente_desc_col: "cliente_description",
+        cliente_geom_col: "cliente_geometry",
+        zona_name_col: "zona_nombre",
+        zona_desc_col: "zona_description",
     })
 
-    if "Zona_Nombre" not in joined.columns:
-        joined["Zona_Nombre"] = None
-    if "Zona_Descripcion" not in joined.columns:
-        joined["Zona_Descripcion"] = None
+    # Asegura que existan las columnas de zona aunque sean None
+    if "zona_nombre" not in joined.columns:
+        joined["zona_nombre"] = None
+    if "zona_description" not in joined.columns:
+        joined["zona_description"] = None
+    # No hay zona_geometry, así que créala como None
+    joined["zona_geometry"] = None
 
-    # Aplica parse_desc a la descripción del cliente y del polígono y expande a columnas
-    desc_cliente_df = joined['Cliente_Descripcion'].apply(parse_desc).apply(pd.Series)
-    desc_poligono_df = joined['Zona_Descripcion'].apply(parse_desc).apply(pd.Series)
+    # Convierte geometría a WKT
+    joined['cliente_geometry'] = joined['cliente_geometry'].apply(lambda g: g.wkt if pd.notnull(g) else None)
 
-    desc_cliente_df = desc_cliente_df.add_prefix('Cliente_')
-    desc_poligono_df = desc_poligono_df.add_prefix('Zona_')
+    # Expande las descripciones en columnas separadas
+    cliente_desc_df = joined['cliente_description'].apply(parse_desc).apply(pd.Series)
+    zona_desc_df = joined['zona_description'].apply(parse_desc).apply(pd.Series)
 
-    # Convierte geometrías a WKT
-    joined['Cliente_Geometry'] = joined['Cliente_Geometry'].apply(lambda g: g.wkt if pd.notnull(g) else None)
-    joined['Zona_Geometry'] = joined['Zona_Geometry'].apply(lambda g: g.wkt if pd.notnull(g) else None)
+    # Prefijos para evitar colisiones de nombres
+    if not cliente_desc_df.empty:
+        cliente_desc_df = cliente_desc_df.add_prefix('cliente_')
+    if not zona_desc_df.empty:
+        zona_desc_df = zona_desc_df.add_prefix('zona_')
 
-    result = pd.concat([joined.reset_index(drop=True), desc_cliente_df, desc_poligono_df], axis=1)
+    # Selecciona solo las columnas que existen
+    cols = [c for c in ['cliente_name', 'cliente_description', 'cliente_geometry', 'zona_nombre', 'zona_description', 'zona_geometry'] if c in joined.columns]
+    joined_base = joined[cols].reset_index(drop=True)
 
-    columnas_finales = (
-        ['Cliente_Nombre', 'Zona_Nombre']
-        + list(desc_cliente_df.columns)
-        + list(desc_poligono_df.columns)
-        + ['Cliente_Geometry', 'Zona_Geometry']
-    )
-    result = result[columnas_finales]
+    # Concatena todo
+    result = pd.concat([
+        joined_base,
+        cliente_desc_df.reset_index(drop=True),
+        zona_desc_df.reset_index(drop=True)
+    ], axis=1)
+
+    # Elimina las columnas de descripción originales si ya están expandidas
+    result = result.drop(columns=['cliente_description', 'zona_description'])
+
+    # Ordena columnas: cliente/zona básicos, luego expandidos
+    cols_base = ['cliente_name', 'cliente_geometry', 'zona_nombre', 'zona_geometry']
+    cols_cliente_exp = [c for c in result.columns if c.startswith('cliente_') and c not in cols_base]
+    cols_zona_exp = [c for c in result.columns if c.startswith('zona_') and c not in cols_base]
+    final_cols = ['cliente_name'] + cols_cliente_exp + ['cliente_geometry', 'zona_nombre'] + cols_zona_exp + ['zona_geometry']
+    final_cols = [c for c in final_cols if c in result.columns]
+
+    result = result[final_cols]
 
     output_path = os.path.join(output_dir, 'clientes_con_nuevazona.xlsx')
     result.to_excel(output_path, index=False)

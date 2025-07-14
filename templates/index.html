@@ -12,6 +12,10 @@
         <header class="main-header">
             <img src="{{ url_for('static', filename='assets/logo.webp') }}" alt="Logo" class="header-logo">
             <h1 class="header-title">Asignación automática de zonas de reparto</h1>
+            <nav class="header-nav">
+                <a href="/" class="header-link{% if active_tab == 'kml' or not active_tab %} active{% endif %}">Procesar .KML</a>
+                <a href="/procesar_xlsx" class="header-link{% if active_tab == 'xlsx' %} active{% endif %}">Procesar .XLSX</a>
+            </nav>
         </header>
         
         <div class="flex-container">
