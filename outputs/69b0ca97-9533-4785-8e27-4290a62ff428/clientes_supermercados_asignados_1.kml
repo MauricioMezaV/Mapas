@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Folder><name>clientes_supermercados_asignados_1</name>
+  <Placemark id="clientes_supermercados_asignados_1.1">
+	<name>Pichilemu Poniente</name>
+	<description>Código: 3200245673&lt;br&gt;Local: Super 9 Pichilemu &lt;br&gt;Calle: Dionisio Acevedo 81&lt;br&gt;Población: pichilemu &lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V4019&lt;br&gt;Transporte: V4019&lt;br&gt;Frecuencia: V&lt;br&gt;Kilos Promedio Semanal: 3333&lt;br&gt;Latitud: -34.3859673&lt;br&gt;Longitud: -72.0078692</description>
+      <Point><coordinates>-72.0078692,-34.3859673,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.2">
+	<name>Quinta de Tilcoco</name>
+	<description>Código: 3200243551&lt;br&gt;Local: Super 9 Quinta de Tilcoco&lt;br&gt;Calle: Tomas Argomedo 1116&lt;br&gt;Población: Quinta de Tilcoco&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V1432&lt;br&gt;Transporte: V1432&lt;br&gt;Frecuencia: M J S&lt;br&gt;Kilos Promedio Semanal: 1112&lt;br&gt;Latitud: -34.3487748&lt;br&gt;Longitud: -70.9598512</description>
+      <Point><coordinates>-70.9598512,-34.3487748,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.3">
+	<name>Rengo Sur 1</name>
+	<description>Código: 15619&lt;br&gt;Local: Super 9 Rengo&lt;br&gt;Calle: Condell 305&lt;br&gt;Población: Rengo&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V3731&lt;br&gt;Transporte: V3731&lt;br&gt;Frecuencia: L W&lt;br&gt;Kilos Promedio Semanal: 1697&lt;br&gt;Latitud: -34.411077&lt;br&gt;Longitud: -70.863013</description>
+      <Point><coordinates>-70.863013,-34.411077,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.4">
+	<name>Rengo Centro</name>
+	<description>Código: 3200107411&lt;br&gt;Local: Cugat Rengo&lt;br&gt;Calle: San Martin 153&lt;br&gt;Población: Rengo&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V3731&lt;br&gt;Transporte: V3731&lt;br&gt;Frecuencia: M J&lt;br&gt;Kilos Promedio Semanal: 5524&lt;br&gt;Latitud: -34.406703&lt;br&gt;Longitud: -70.862804</description>
+      <Point><coordinates>-70.862804,-34.406703,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.5">
+	<name>Rengo Sur 1</name>
+	<description>Código: 3200251329&lt;br&gt;Local: Comercial Corona Limitada&lt;br&gt;Calle: Condell 305&lt;br&gt;Población: Rengo&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V3731&lt;br&gt;Transporte: V3731&lt;br&gt;Frecuencia: L W&lt;br&gt;Kilos Promedio Semanal: 769&lt;br&gt;Latitud: -34.411077&lt;br&gt;Longitud: -70.863013</description>
+      <Point><coordinates>-70.863013,-34.411077,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.6">
+	<name>Rengo Centro</name>
+	<description>Código: 3200010617&lt;br&gt;Local: M10 Rengo&lt;br&gt;Calle: Arturo Prat 607&lt;br&gt;Población: Rengo&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V3731&lt;br&gt;Transporte: V3731&lt;br&gt;Frecuencia: M J&lt;br&gt;Kilos Promedio Semanal: 5422&lt;br&gt;Latitud: -34.404485&lt;br&gt;Longitud: -70.856572</description>
+      <Point><coordinates>-70.856572,-34.404485,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.7">
+	<name>Rengo Sur 1</name>
+	<description>Código: 3200027347&lt;br&gt;Local: Tottus Rengo&lt;br&gt;Calle: Condell 100&lt;br&gt;Población: Rengo&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V3731&lt;br&gt;Transporte: V3731&lt;br&gt;Frecuencia: L W&lt;br&gt;Kilos Promedio Semanal: 7336&lt;br&gt;Latitud: -34.410615&lt;br&gt;Longitud: -70.86102</description>
+      <Point><coordinates>-70.86102,-34.410615,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.8">
+	<name>Requinoa Oriente</name>
+	<description>Código: 88754&lt;br&gt;Local: Super 9 Requínoa&lt;br&gt;Calle: Carlos Nieny 14&lt;br&gt;Población: Requínoa&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V2147&lt;br&gt;Transporte: V2147&lt;br&gt;Frecuencia: L W V&lt;br&gt;Kilos Promedio Semanal: 2106&lt;br&gt;Latitud: -34.282297&lt;br&gt;Longitud: -70.81796</description>
+      <Point><coordinates>-70.81796,-34.282297,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.9">
+	<name>Rgua Centro 1</name>
+	<description>Código: 3200010616&lt;br&gt;Local: M10 Rancagua II&lt;br&gt;Calle: Avenida Brasil 1016&lt;br&gt;Población: Rancagua&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V3639&lt;br&gt;Transporte: V3639&lt;br&gt;Frecuencia: L W V&lt;br&gt;Kilos Promedio Semanal: 1403&lt;br&gt;Latitud: -34.170107&lt;br&gt;Longitud: -70.7496</description>
+      <Point><coordinates>-70.7496,-34.170107,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.10">
+	<name>Rgua Centro 2</name>
+	<description>Código: 3200018182&lt;br&gt;Local: Santa Isabel Independencia&lt;br&gt;Calle: Independencia 591&lt;br&gt;Población: Rancagua&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V2147&lt;br&gt;Transporte: V2147&lt;br&gt;Frecuencia: M J S&lt;br&gt;Kilos Promedio Semanal: 718&lt;br&gt;Latitud: -34.169125&lt;br&gt;Longitud: -70.743261</description>
+      <Point><coordinates>-70.743261,-34.169125,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.11">
+	<name>Rgua Centro 1</name>
+	<description>Código: 3200036945&lt;br&gt;Local: M10 Rancagua III&lt;br&gt;Calle: Avenida Brasil 1064&lt;br&gt;Población: Rancagua&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V3639&lt;br&gt;Transporte: V3639&lt;br&gt;Frecuencia: L W V&lt;br&gt;Kilos Promedio Semanal: 3928&lt;br&gt;Latitud: -34.170102&lt;br&gt;Longitud: -70.749567</description>
+      <Point><coordinates>-70.749567,-34.170102,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.12">
+	<name>Rgua Centro 2</name>
+	<description>Código: 3200069459&lt;br&gt;Local: Tottus Rancagua Centro&lt;br&gt;Calle: Cuevas 405&lt;br&gt;Población: Rancagua&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V2147&lt;br&gt;Transporte: V2147&lt;br&gt;Frecuencia: M J S&lt;br&gt;Kilos Promedio Semanal: 2424&lt;br&gt;Latitud: -34.16948&lt;br&gt;Longitud: -70.74156</description>
+      <Point><coordinates>-70.74156,-34.16948,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.13">
+	<name>Rgua Mercado</name>
+	<description>Código: 54692&lt;br&gt;Local: Alvi Rancagua&lt;br&gt;Calle: Bombero Ruidiaz 40&lt;br&gt;Población: Rancagua&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V3639&lt;br&gt;Transporte: V3639&lt;br&gt;Frecuencia: L W V&lt;br&gt;Kilos Promedio Semanal: 368&lt;br&gt;Latitud: -34.1649&lt;br&gt;Longitud: -70.7495</description>
+      <Point><coordinates>-70.7495,-34.1649,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.14">
+	<name>Rgua Mercado</name>
+	<description>Código: 3200052166&lt;br&gt;Local: Unimarc Rancagua&lt;br&gt;Calle: Doctor Salinas 115&lt;br&gt;Población: Rancagua&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V3639&lt;br&gt;Transporte: V3639&lt;br&gt;Frecuencia: L W V&lt;br&gt;Kilos Promedio Semanal: 297&lt;br&gt;Latitud: -34.1662576&lt;br&gt;Longitud: -70.750764</description>
+      <Point><coordinates>-70.750764,-34.1662576,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.15">
+	<name>Rgua Mercado</name>
+	<description>Código: 3200104039&lt;br&gt;Local: Lider Express Santa Maria&lt;br&gt;Calle: Avenida Santa Maria 172&lt;br&gt;Población: Rancagua&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V3639&lt;br&gt;Transporte: V3639&lt;br&gt;Frecuencia: L W V&lt;br&gt;Kilos Promedio Semanal: 2500&lt;br&gt;Latitud: -34.166592&lt;br&gt;Longitud: -70.748653</description>
+      <Point><coordinates>-70.748653,-34.166592,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.16">
+	<name>Rgua Mercado</name>
+	<description>Código: 3200107410&lt;br&gt;Local: Cugat Santa Maria&lt;br&gt;Calle: Santa Maria 381&lt;br&gt;Población: Rancagua&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V3639&lt;br&gt;Transporte: V3639&lt;br&gt;Frecuencia: L W V&lt;br&gt;Kilos Promedio Semanal: 7495&lt;br&gt;Latitud: -34.168287&lt;br&gt;Longitud: -70.75113</description>
+      <Point><coordinates>-70.75113,-34.168287,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.17">
+	<name>Rgua Nororiente 1</name>
+	<description>Código: 3200041898&lt;br&gt;Local: Unimarc Membrillar&lt;br&gt;Calle: Membrillar 10&lt;br&gt;Población: Rancagua&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V3969&lt;br&gt;Transporte: V3969&lt;br&gt;Frecuencia: L W V&lt;br&gt;Kilos Promedio Semanal: 993&lt;br&gt;Latitud: -34.1712178&lt;br&gt;Longitud: -70.734264</description>
+      <Point><coordinates>-70.734264,-34.1712178,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.18">
+	<name>Rgua Nororiente 1</name>
+	<description>Código: 3200068010&lt;br&gt;Local: Jumbo Membrillar&lt;br&gt;Calle: Membrillar 450&lt;br&gt;Población: Rancagua&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V3969&lt;br&gt;Transporte: V3969&lt;br&gt;Frecuencia: L W V&lt;br&gt;Kilos Promedio Semanal: 1211&lt;br&gt;Latitud: -34.17214&lt;br&gt;Longitud: -70.72831</description>
+      <Point><coordinates>-70.72831,-34.17214,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.19">
+	<name>Rgua Norte 1</name>
+	<description>Código: 3200038850&lt;br&gt;Local: Santa Isabel Republica&lt;br&gt;Calle: Avda Republica de Chile 450&lt;br&gt;Población: Rancagua&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V0680&lt;br&gt;Transporte: V0680&lt;br&gt;Frecuencia: L W V&lt;br&gt;Kilos Promedio Semanal: 2299&lt;br&gt;Latitud: -34.15559&lt;br&gt;Longitud: -70.73818</description>
+      <Point><coordinates>-70.73818,-34.15559,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.20">
+	<name>Rgua Norte 1</name>
+	<description>Código: 3200103967&lt;br&gt;Local: Lider Express Rancagua&lt;br&gt;Calle: Recreo 620&lt;br&gt;Población: Rancagua&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V0680&lt;br&gt;Transporte: V0680&lt;br&gt;Frecuencia: L W V&lt;br&gt;Kilos Promedio Semanal: 6873&lt;br&gt;Latitud: -34.158963&lt;br&gt;Longitud: -70.737131</description>
+      <Point><coordinates>-70.737131,-34.158963,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.21">
+	<name>Rgua Norte 1</name>
+	<description>Código: 3200041899&lt;br&gt;Local: Unimarc Rancagua Republica&lt;br&gt;Calle: Republica de Chile 391&lt;br&gt;Población: Rancagua&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V0680&lt;br&gt;Transporte: V0680&lt;br&gt;Frecuencia: L W V&lt;br&gt;Kilos Promedio Semanal: 1180&lt;br&gt;Latitud: -34.1548&lt;br&gt;Longitud: -70.7367</description>
+      <Point><coordinates>-70.7367,-34.1548,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.22">
+	<name>Rgua Norte 2</name>
+	<description>Código: 3200051514&lt;br&gt;Local: Unimarc Rancagua Kennedy&lt;br&gt;Calle: Avda Kennedy 2235 Parque I&lt;br&gt;Población: Rancagua&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V0680&lt;br&gt;Transporte: V0680&lt;br&gt;Frecuencia: M J S&lt;br&gt;Kilos Promedio Semanal: 3434&lt;br&gt;Latitud: -34.140379&lt;br&gt;Longitud: -70.7367427</description>
+      <Point><coordinates>-70.7367427,-34.140379,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.23">
+	<name>Rgua Oriente 1</name>
+	<description>Código: 74497&lt;br&gt;Local: Unimarc Machali&lt;br&gt;Calle: Av Miguel Ramirez 1420&lt;br&gt;Población: Rancagua&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V4022&lt;br&gt;Transporte: V4022&lt;br&gt;Frecuencia: L W V&lt;br&gt;Kilos Promedio Semanal: 818&lt;br&gt;Latitud: -34.176812&lt;br&gt;Longitud: -70.704328</description>
+      <Point><coordinates>-70.704328,-34.176812,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.24">
+	<name>Rgua Oriente 1</name>
+	<description>Código: 3200045038&lt;br&gt;Local: Santa Isabel Punta del Sol&lt;br&gt;Calle: Av Punta del Sol 1834&lt;br&gt;Población: Rancagua&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V4022&lt;br&gt;Transporte: V4022&lt;br&gt;Frecuencia: L W V&lt;br&gt;Kilos Promedio Semanal: 3133&lt;br&gt;Latitud: -34.1621469&lt;br&gt;Longitud: -70.705642</description>
+      <Point><coordinates>-70.705642,-34.1621469,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.25">
+	<name>Rgua Oriente 1</name>
+	<description>Código: 3200103966&lt;br&gt;Local: Lider Vecino Rancagua&lt;br&gt;Calle: Avenida Nueva Einstein 263&lt;br&gt;Población: Rancagua&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V4022&lt;br&gt;Transporte: V4022&lt;br&gt;Frecuencia: L W V&lt;br&gt;Kilos Promedio Semanal: 4612&lt;br&gt;Latitud: -34.171736&lt;br&gt;Longitud: -70.717182</description>
+      <Point><coordinates>-70.717182,-34.171736,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.26">
+	<name>Rgua Poniente 1</name>
+	<description>Código: 3200104251&lt;br&gt;Local: Lider Express Av Diagonal Doñihue&lt;br&gt;Calle: Avenida Diagonal Donihue 2521&lt;br&gt;Población: Rancagua&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V3912&lt;br&gt;Transporte: V3912&lt;br&gt;Frecuencia: L W V&lt;br&gt;Kilos Promedio Semanal: 1339&lt;br&gt;Latitud: -34.179808&lt;br&gt;Longitud: -70.769333</description>
+      <Point><coordinates>-70.769333,-34.179808,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.27">
+	<name>Rgua Poniente 1</name>
+	<description>Código: 3200107407&lt;br&gt;Local: Cugat Baquedano&lt;br&gt;Calle: San Ramon 3202&lt;br&gt;Población: Rancagua&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V3912&lt;br&gt;Transporte: V3912&lt;br&gt;Frecuencia: L W V&lt;br&gt;Kilos Promedio Semanal: 8743&lt;br&gt;Latitud: -34.167507&lt;br&gt;Longitud: -70.77464</description>
+      <Point><coordinates>-70.77464,-34.167507,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.28">
+	<name>Rgua Poniente 1</name>
+	<description>Código: 3200086597&lt;br&gt;Local: Santa Isabel Bosques de San Francis&lt;br&gt;Calle: Lourdes 1540 Esq Santa Filomena&lt;br&gt;Población: Rancagua&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V3912&lt;br&gt;Transporte: V3912&lt;br&gt;Frecuencia: L W V&lt;br&gt;Kilos Promedio Semanal: 2164&lt;br&gt;Latitud: -34.175063&lt;br&gt;Longitud: -70.759376</description>
+      <Point><coordinates>-70.759376,-34.175063,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.29">
+	<name>Rgua Sur 2</name>
+	<description>Código: 3200007272&lt;br&gt;Local: Jumbo Rancagua&lt;br&gt;Calle: Eduardo Frei Montalva 750&lt;br&gt;Población: Rancagua&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V4055&lt;br&gt;Transporte: V4055&lt;br&gt;Frecuencia: M J S&lt;br&gt;Kilos Promedio Semanal: 11709&lt;br&gt;Latitud: -34.185501&lt;br&gt;Longitud: -70.723376</description>
+      <Point><coordinates>-70.723376,-34.185501,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.30">
+	<name>Rgua Sur 2</name>
+	<description>Código: 3200103965&lt;br&gt;Local: Lider Rancagua&lt;br&gt;Calle: Carretera El Cobre 190&lt;br&gt;Población: Rancagua&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V4055&lt;br&gt;Transporte: V4055&lt;br&gt;Frecuencia: M J S&lt;br&gt;Kilos Promedio Semanal: 14164&lt;br&gt;Latitud: -34.180642&lt;br&gt;Longitud: -70.732465</description>
+      <Point><coordinates>-70.732465,-34.180642,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.31">
+	<name>Chépica</name>
+	<description>Código: 25955&lt;br&gt;Local: Super 9 Chepica&lt;br&gt;Calle: 18 de Septiembre 3820  Chepica&lt;br&gt;Población: Chepica&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V1460&lt;br&gt;Transporte: V1460&lt;br&gt;Frecuencia: L W J V&lt;br&gt;Kilos Promedio Semanal: 2443&lt;br&gt;Latitud: -34.7295637&lt;br&gt;Longitud: -71.2705411</description>
+      <Point><coordinates>-71.2705411,-34.7295637,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.32">
+	<name>Chépica</name>
+	<description>Código: 3200247436&lt;br&gt;Local: Super 9 Chepica&lt;br&gt;Calle: 18 de Septiembre 3820  Chepica&lt;br&gt;Población: Chepica&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V1460&lt;br&gt;Transporte: V1460&lt;br&gt;Frecuencia: L W J V&lt;br&gt;Kilos Promedio Semanal: 2691&lt;br&gt;Latitud: -34.729594&lt;br&gt;Longitud: -71.2707734</description>
+      <Point><coordinates>-71.2707734,-34.729594,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.33">
+	<name>Coltauco Centro</name>
+	<description>Código: 3200245672&lt;br&gt;Local: Super 9 Coltauco &lt;br&gt;Calle: Av Republica de Chile 96&lt;br&gt;Población: Coltauco &lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V1432&lt;br&gt;Transporte: V1432&lt;br&gt;Frecuencia: L W V&lt;br&gt;Kilos Promedio Semanal: 2522&lt;br&gt;Latitud: -34.2837231&lt;br&gt;Longitud: -71.078283</description>
+      <Point><coordinates>-71.078283,-34.2837231,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.34">
+	<name>Doñihue</name>
+	<description>Código: 3200045041&lt;br&gt;Local: Santa Isabel Doñihue&lt;br&gt;Calle: Avda Estacion 334&lt;br&gt;Población: Doñihue&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V0553&lt;br&gt;Transporte: V0553&lt;br&gt;Frecuencia: M J S&lt;br&gt;Kilos Promedio Semanal: 1751&lt;br&gt;Latitud: -34.2268579&lt;br&gt;Longitud: -70.9644661</description>
+      <Point><coordinates>-70.9644661,-34.2268579,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.35">
+	<name>Doñihue</name>
+	<description>Código: 3200245949&lt;br&gt;Local: Super 9 Doñihue&lt;br&gt;Calle: Lote b Carretera H-30 4168&lt;br&gt;Población: Doñihue&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V0553&lt;br&gt;Transporte: V0553&lt;br&gt;Frecuencia: M J S&lt;br&gt;Kilos Promedio Semanal: 1869&lt;br&gt;Latitud: -34.2189352&lt;br&gt;Longitud: -70.9626246</description>
+      <Point><coordinates>-70.9626246,-34.2189352,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.36">
+	<name>Graneros Norte</name>
+	<description>Código: 3200052169&lt;br&gt;Local: Unimarc Graneros&lt;br&gt;Calle: Obispo Rafael Lira 042&lt;br&gt;Población: Graneros&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V3969&lt;br&gt;Transporte: V3969&lt;br&gt;Frecuencia: M S&lt;br&gt;Kilos Promedio Semanal: 1287&lt;br&gt;Latitud: -34.06776&lt;br&gt;Longitud: -70.72315</description>
+      <Point><coordinates>-70.72315,-34.06776,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.37">
+	<name>Coltauco Centro</name>
+	<description>Código: 15631&lt;br&gt;Local: Super 9 Coltauco&lt;br&gt;Calle: Republica de Chile S/N&lt;br&gt;Población: Coltauco&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V1432&lt;br&gt;Transporte: V1432&lt;br&gt;Frecuencia: L W V&lt;br&gt;Kilos Promedio Semanal: 0&lt;br&gt;Latitud: -34.2876869&lt;br&gt;Longitud: -71.0803578</description>
+      <Point><coordinates>-71.0803578,-34.2876869,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.38">
+	<name>Las Cabras Poniente</name>
+	<description>Código: 3200129510&lt;br&gt;Local: Super 9 Las Cabras Acacios&lt;br&gt;Calle: Las Acacias 255&lt;br&gt;Población: Las Cabras&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V3730&lt;br&gt;Transporte: V3730&lt;br&gt;Frecuencia: M W S&lt;br&gt;Kilos Promedio Semanal: 1772&lt;br&gt;Latitud: -34.29534&lt;br&gt;Longitud: -71.30335</description>
+      <Point><coordinates>-71.30335,-34.29534,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.39">
+	<name>Las Cabras Poniente</name>
+	<description>Código: 15620&lt;br&gt;Local: Super 9 Las Cabras&lt;br&gt;Calle: Jose Miguel Carrera 601&lt;br&gt;Población: Las Cabras&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V3730&lt;br&gt;Transporte: V3730&lt;br&gt;Frecuencia: M W S&lt;br&gt;Kilos Promedio Semanal: 3147&lt;br&gt;Latitud: -34.290778&lt;br&gt;Longitud: -71.308353</description>
+      <Point><coordinates>-71.308353,-34.290778,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.40">
+	<name>Las Cabras Poniente</name>
+	<description>Código: 3200052168&lt;br&gt;Local: Unimarc Las Cabras&lt;br&gt;Calle: Jose Miguel Carrera 325&lt;br&gt;Población: Las Cabras&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V3730&lt;br&gt;Transporte: V3730&lt;br&gt;Frecuencia: M W S&lt;br&gt;Kilos Promedio Semanal: 1829&lt;br&gt;Latitud: -34.2914674&lt;br&gt;Longitud: -71.3087114</description>
+      <Point><coordinates>-71.3087114,-34.2914674,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.41">
+	<name>Machalí Cerro (Nueva)</name>
+	<description>Código: 3200100358&lt;br&gt;Local: Santa Isabel Arturo Prat 116&lt;br&gt;Calle: Arturo Prat 116 Con Miranda 6&lt;br&gt;Población: Machalí&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V4075&lt;br&gt;Transporte: V4075&lt;br&gt;Frecuencia: L J&lt;br&gt;Kilos Promedio Semanal: 1436&lt;br&gt;Latitud: -34.178587&lt;br&gt;Longitud: -70.653246</description>
+      <Point><coordinates>-70.653246,-34.178587,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.42">
+	<name>Machalí Cerro (Nueva)</name>
+	<description>Código: 3200241945&lt;br&gt;Local: Comercial El Trebol Norte&lt;br&gt;Calle: Cam Comunidad Bravo 051 Lote A&lt;br&gt;Población: Machalí&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V4075&lt;br&gt;Transporte: V4075&lt;br&gt;Frecuencia: L J&lt;br&gt;Kilos Promedio Semanal: 499&lt;br&gt;Latitud: -34.1671434&lt;br&gt;Longitud: -70.6648981</description>
+      <Point><coordinates>-70.6648981,-34.1671434,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.43">
+	<name>Machalí Poniente</name>
+	<description>Código: 3200050682&lt;br&gt;Local: Tottus Machali&lt;br&gt;Calle: Avenida San Juan 133&lt;br&gt;Población: Machalí&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V4075&lt;br&gt;Transporte: V4075&lt;br&gt;Frecuencia: M V&lt;br&gt;Kilos Promedio Semanal: 3837&lt;br&gt;Latitud: -34.1772879&lt;br&gt;Longitud: -70.6992686</description>
+      <Point><coordinates>-70.6992686,-34.1772879,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.44">
+	<name>Machalí Cerro (Nueva)</name>
+	<description>Código: 3200104252&lt;br&gt;Local: Lider Express San Juan 2184&lt;br&gt;Calle: San Juan 2184&lt;br&gt;Población: Machalí&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V4075&lt;br&gt;Transporte: V4075&lt;br&gt;Frecuencia: L J&lt;br&gt;Kilos Promedio Semanal: 1443&lt;br&gt;Latitud: -34.167807&lt;br&gt;Longitud: -70.669849</description>
+      <Point><coordinates>-70.669849,-34.167807,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.45">
+	<name>Machalí Poniente</name>
+	<description>Código: 3200170815&lt;br&gt;Local: Delivery Hero Machalí&lt;br&gt;Calle: Escrivá de Balaguer 103&lt;br&gt;Población: Machalí&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V4075&lt;br&gt;Transporte: V4075&lt;br&gt;Frecuencia: M V&lt;br&gt;Kilos Promedio Semanal: 195&lt;br&gt;Latitud: -34.1768068&lt;br&gt;Longitud: -70.6952727</description>
+      <Point><coordinates>-70.6952727,-34.1768068,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.46">
+	<name>Machalí Poniente</name>
+	<description>Código: 3200219776&lt;br&gt;Local: Unimarc San Juan de Machali&lt;br&gt;Calle: Avda San Juan 1135 Local 28&lt;br&gt;Población: Machalí&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V4075&lt;br&gt;Transporte: V4075&lt;br&gt;Frecuencia: M V&lt;br&gt;Kilos Promedio Semanal: 1216&lt;br&gt;Latitud: -34.1696&lt;br&gt;Longitud: -70.6783</description>
+      <Point><coordinates>-70.6783,-34.1696,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.47">
+	<name>Mostazal</name>
+	<description>Código: 3200045039&lt;br&gt;Local: Santa Isabel San Francisco&lt;br&gt;Calle: Independencia 540&lt;br&gt;Población: Mostazal&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V3969&lt;br&gt;Transporte: V3969&lt;br&gt;Frecuencia: M J S&lt;br&gt;Kilos Promedio Semanal: 1221&lt;br&gt;Latitud: -33.9811709&lt;br&gt;Longitud: -70.7122037</description>
+      <Point><coordinates>-70.7122037,-33.9811709,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.48">
+	<name>Nancagua</name>
+	<description>Código: 3200052167&lt;br&gt;Local: Unimarc Nancagua&lt;br&gt;Calle: Armando Jaramillo 152 Nancagua&lt;br&gt;Población: Nancagua&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V1460&lt;br&gt;Transporte: V1460&lt;br&gt;Frecuencia: L W V S&lt;br&gt;Kilos Promedio Semanal: 1188&lt;br&gt;Latitud: -34.6504&lt;br&gt;Longitud: -71.2046</description>
+      <Point><coordinates>-71.2046,-34.6504,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.49">
+	<name>Nancagua</name>
+	<description>Código: 3200117420&lt;br&gt;Local: Corona Alarcon Victor Manuel&lt;br&gt;Calle: A Jaramillo 463&lt;br&gt;Población: Nancagua&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V1460&lt;br&gt;Transporte: V1460&lt;br&gt;Frecuencia: L W V S&lt;br&gt;Kilos Promedio Semanal: 0&lt;br&gt;Latitud: -34.6513&lt;br&gt;Longitud: -71.2005</description>
+      <Point><coordinates>-71.2005,-34.6513,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.50">
+	<name>Nancagua</name>
+	<description>Código: 3200240887&lt;br&gt;Local: Super 9 Nancagua&lt;br&gt;Calle: Armando Jaramillo 463&lt;br&gt;Población: Nancagua&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V1460&lt;br&gt;Transporte: V1460&lt;br&gt;Frecuencia: L W V S&lt;br&gt;Kilos Promedio Semanal: 2846&lt;br&gt;Latitud: -34.650347&lt;br&gt;Longitud: -71.201221</description>
+      <Point><coordinates>-71.201221,-34.650347,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.51">
+	<name>Peralillo</name>
+	<description>Código: 70906&lt;br&gt;Local: Super 9 Peralillo&lt;br&gt;Calle: Colo Colo 548&lt;br&gt;Población: Peralillo&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V0820&lt;br&gt;Transporte: V0820&lt;br&gt;Frecuencia: L W V&lt;br&gt;Kilos Promedio Semanal: 2122&lt;br&gt;Latitud: -34.4792983&lt;br&gt;Longitud: -71.4808433</description>
+      <Point><coordinates>-71.4808433,-34.4792983,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.52">
+	<name>Peumo</name>
+	<description>Código: 3200052165&lt;br&gt;Local: Unimarc Peumo&lt;br&gt;Calle: Sarmiento 393&lt;br&gt;Población: Peumo&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V1155&lt;br&gt;Transporte: V1155&lt;br&gt;Frecuencia: M J S&lt;br&gt;Kilos Promedio Semanal: 1329&lt;br&gt;Latitud: -34.393288&lt;br&gt;Longitud: -71.167843</description>
+      <Point><coordinates>-71.167843,-34.393288,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.53">
+	<name>Pichidegua</name>
+	<description>Código: 3200107408&lt;br&gt;Local: Cugat Pichidegua&lt;br&gt;Calle: Independencia 621&lt;br&gt;Población: Pichidegua&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V1155&lt;br&gt;Transporte: V1155&lt;br&gt;Frecuencia: L W V&lt;br&gt;Kilos Promedio Semanal: 2526&lt;br&gt;Latitud: -34.360203&lt;br&gt;Longitud: -71.28183</description>
+      <Point><coordinates>-71.28183,-34.360203,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.54">
+	<name>Pichilemu Poniente</name>
+	<description>Código: 25963&lt;br&gt;Local: Super 9 Pichilemu&lt;br&gt;Calle: Dionisio Acevedo 81&lt;br&gt;Población: Pichilemu&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V4019&lt;br&gt;Transporte: V4019&lt;br&gt;Frecuencia: V&lt;br&gt;Kilos Promedio Semanal: 0&lt;br&gt;Latitud: -34.386&lt;br&gt;Longitud: -72.0084</description>
+      <Point><coordinates>-72.0084,-34.386,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.55">
+	<name>Pichilemu Poniente</name>
+	<description>Código: 3200159231&lt;br&gt;Local: Super 9 Pichilemu 2&lt;br&gt;Calle: Avda Comercio 2230&lt;br&gt;Población: Pichilemu&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V4019&lt;br&gt;Transporte: V4019&lt;br&gt;Frecuencia: V&lt;br&gt;Kilos Promedio Semanal: 2156&lt;br&gt;Latitud: -34.405049&lt;br&gt;Longitud: -72.02552</description>
+      <Point><coordinates>-72.02552,-34.405049,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.56">
+	<name>San Vicente Oriente</name>
+	<description>Código: 3200104074&lt;br&gt;Local: Lider Express San Vicente&lt;br&gt;Calle: German Riesco S/N&lt;br&gt;Población: San Vicente&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V3294&lt;br&gt;Transporte: V3294&lt;br&gt;Frecuencia: L W V&lt;br&gt;Kilos Promedio Semanal: 7506&lt;br&gt;Latitud: -34.441732&lt;br&gt;Longitud: -71.074412</description>
+      <Point><coordinates>-71.074412,-34.441732,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.57">
+	<name>San Vicente Oriente</name>
+	<description>Código: 3200184279&lt;br&gt;Local: Hipermercados Tottus San Vicente 31&lt;br&gt;Calle: Diego Portales 81&lt;br&gt;Población: San Vicente&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V3294&lt;br&gt;Transporte: V3294&lt;br&gt;Frecuencia: L W V&lt;br&gt;Kilos Promedio Semanal: 2142&lt;br&gt;Latitud: -34.441019&lt;br&gt;Longitud: -71.073551</description>
+      <Point><coordinates>-71.073551,-34.441019,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.58">
+	<name>San Vicente Poniente</name>
+	<description>Código: 55883&lt;br&gt;Local: La Fama San Vicente&lt;br&gt;Calle: German Riesco 966&lt;br&gt;Población: San Vicente&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V3294&lt;br&gt;Transporte: V3294&lt;br&gt;Frecuencia: M J S&lt;br&gt;Kilos Promedio Semanal: 2748&lt;br&gt;Latitud: -34.4402926&lt;br&gt;Longitud: -71.0784049</description>
+      <Point><coordinates>-71.0784049,-34.4402926,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.59">
+	<name>San Vicente Poniente</name>
+	<description>Código: 3200010371&lt;br&gt;Local: M10 San Vicente&lt;br&gt;Calle: Avenida Espana E Genaro Lisboa S/N&lt;br&gt;Población: San Vicente&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V3294&lt;br&gt;Transporte: V3294&lt;br&gt;Frecuencia: M J S&lt;br&gt;Kilos Promedio Semanal: 3963&lt;br&gt;Latitud: -34.436795&lt;br&gt;Longitud: -71.07983</description>
+      <Point><coordinates>-71.07983,-34.436795,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.60">
+	<name>San Vicente Poniente</name>
+	<description>Código: 3200107409&lt;br&gt;Local: Cugat San Vicente&lt;br&gt;Calle: Lisboa 165&lt;br&gt;Población: San Vicente&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V3294&lt;br&gt;Transporte: V3294&lt;br&gt;Frecuencia: M J S&lt;br&gt;Kilos Promedio Semanal: 6080&lt;br&gt;Latitud: -34.437245&lt;br&gt;Longitud: -71.080022</description>
+      <Point><coordinates>-71.080022,-34.437245,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.61">
+	<name>Santa Cruz Sur</name>
+	<description>Código: 3200216075&lt;br&gt;Local: Supermercado La Colchaguina SPA&lt;br&gt;Calle: Rafael Casanova 445. Sta Cruz&lt;br&gt;Población: Santa Cruz&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V1471&lt;br&gt;Transporte: V1471&lt;br&gt;Frecuencia: M J S&lt;br&gt;Kilos Promedio Semanal: 3015&lt;br&gt;Latitud: -34.64136&lt;br&gt;Longitud: -71.3702</description>
+      <Point><coordinates>-71.3702,-34.64136,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.62">
+	<name>Santa Cruz Sur</name>
+	<description>Código: 57362&lt;br&gt;Local: La Fama Santa Cruz&lt;br&gt;Calle: Rafael Casanova Interior 460&lt;br&gt;Población: Santa Cruz&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V1471&lt;br&gt;Transporte: V1471&lt;br&gt;Frecuencia: M J S&lt;br&gt;Kilos Promedio Semanal: 3307&lt;br&gt;Latitud: -34.6445&lt;br&gt;Longitud: -71.372</description>
+      <Point><coordinates>-71.372,-34.6445,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.63">
+	<name>Santa Cruz Sur</name>
+	<description>Código: 3200036846&lt;br&gt;Local: M10 Santa Cruz&lt;br&gt;Calle: Sanfurgo 128&lt;br&gt;Población: Santa Cruz&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V1471&lt;br&gt;Transporte: V1471&lt;br&gt;Frecuencia: M J S&lt;br&gt;Kilos Promedio Semanal: 2910&lt;br&gt;Latitud: -34.643379&lt;br&gt;Longitud: -71.367717</description>
+      <Point><coordinates>-71.367717,-34.643379,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.64">
+	<name>Santa Cruz Sur</name>
+	<description>Código: 3200066028&lt;br&gt;Local: Jumbo Santa Cruz&lt;br&gt;Calle: Orlandi 26&lt;br&gt;Población: Santa Cruz&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V1471&lt;br&gt;Transporte: V1471&lt;br&gt;Frecuencia: M J S&lt;br&gt;Kilos Promedio Semanal: 1712&lt;br&gt;Latitud: -34.64088&lt;br&gt;Longitud: -71.3659</description>
+      <Point><coordinates>-71.3659,-34.64088,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.65">
+	<name>Santa Cruz Sur</name>
+	<description>Código: 3200104014&lt;br&gt;Local: Lider Santa Cruz&lt;br&gt;Calle: Rafael Casanova 344&lt;br&gt;Población: Santa Cruz&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V1471&lt;br&gt;Transporte: V1471&lt;br&gt;Frecuencia: M J S&lt;br&gt;Kilos Promedio Semanal: 11272&lt;br&gt;Latitud: -34.644177&lt;br&gt;Longitud: -71.370316</description>
+      <Point><coordinates>-71.370316,-34.644177,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.66">
+	<name>Santa Cruz Sur</name>
+	<description>Código: 3200218624&lt;br&gt;Local: Comercial El Trebol Norte Ltda&lt;br&gt;Calle: Diaz Besoain 75&lt;br&gt;Población: Santa Cruz&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V1471&lt;br&gt;Transporte: V1471&lt;br&gt;Frecuencia: M J S&lt;br&gt;Kilos Promedio Semanal: 295&lt;br&gt;Latitud: -34.639596&lt;br&gt;Longitud: -71.36673</description>
+      <Point><coordinates>-71.36673,-34.639596,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.67">
+	<name>Sn Fdo Norponiente 2</name>
+	<description>Código: 15618&lt;br&gt;Local: Super 9 Sna Fdo Manso&lt;br&gt;Calle: Manso de Velasco S/N&lt;br&gt;Población: San Fernando&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V3967&lt;br&gt;Transporte: V3967&lt;br&gt;Frecuencia: M J S&lt;br&gt;Kilos Promedio Semanal: 1987&lt;br&gt;Latitud: -34.574497&lt;br&gt;Longitud: -70.99118</description>
+      <Point><coordinates>-70.99118,-34.574497,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.68">
+	<name>Sn Fdo Norponiente 2</name>
+	<description>Código: 3200007194&lt;br&gt;Local: Santa Isabel San Fernando&lt;br&gt;Calle: Manuel Rodriguez 806&lt;br&gt;Población: San Fernando&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V3967&lt;br&gt;Transporte: V3967&lt;br&gt;Frecuencia: M J S&lt;br&gt;Kilos Promedio Semanal: 4280&lt;br&gt;Latitud: -34.58851&lt;br&gt;Longitud: -70.98684</description>
+      <Point><coordinates>-70.98684,-34.58851,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.69">
+	<name>Sn Fdo Norponiente 2</name>
+	<description>Código: 3200010619&lt;br&gt;Local: M10 San Fernando&lt;br&gt;Calle: Chillan 745 San Fdo&lt;br&gt;Población: San Fernando&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V3967&lt;br&gt;Transporte: V3967&lt;br&gt;Frecuencia: M J S&lt;br&gt;Kilos Promedio Semanal: 2115&lt;br&gt;Latitud: -34.586182&lt;br&gt;Longitud: -70.987637</description>
+      <Point><coordinates>-70.987637,-34.586182,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.70">
+	<name>Sn Fdo Norponiente 2</name>
+	<description>Código: 3200027351&lt;br&gt;Local: Tottus San Fernando&lt;br&gt;Calle: Carampangue 681&lt;br&gt;Población: San Fernando&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V3967&lt;br&gt;Transporte: V3967&lt;br&gt;Frecuencia: M J S&lt;br&gt;Kilos Promedio Semanal: 3097&lt;br&gt;Latitud: -34.585302&lt;br&gt;Longitud: -70.991138</description>
+      <Point><coordinates>-70.991138,-34.585302,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.71">
+	<name>Sn Fdo Norponiente 2</name>
+	<description>Código: 3200067753&lt;br&gt;Local: Super 9 San Fdo El Alamo&lt;br&gt;Calle: El Alamo 432 Pobl Dona Ester&lt;br&gt;Población: San Fernando&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V3967&lt;br&gt;Transporte: V3967&lt;br&gt;Frecuencia: M J S&lt;br&gt;Kilos Promedio Semanal: 2283&lt;br&gt;Latitud: -34.584&lt;br&gt;Longitud: -70.9903</description>
+      <Point><coordinates>-70.9903,-34.584,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.72">
+	<name>Sn Fdo Norponiente 2</name>
+	<description>Código: 3200111926&lt;br&gt;Local: Unimarc San Fernando 0096&lt;br&gt;Calle: Av Lib Bdo O'Higgins 701 Local 100&lt;br&gt;Población: San Fernando&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V3967&lt;br&gt;Transporte: V3967&lt;br&gt;Frecuencia: M J S&lt;br&gt;Kilos Promedio Semanal: 613&lt;br&gt;Latitud: -34.585939&lt;br&gt;Longitud: -70.985018</description>
+      <Point><coordinates>-70.985018,-34.585939,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.73">
+	<name>Sn Fdo Suroriente 2</name>
+	<description>Código: 91247&lt;br&gt;Local: Super 9 San Fdo&lt;br&gt;Calle: Cancha Rayada 780&lt;br&gt;Población: San Fernando&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V2881&lt;br&gt;Transporte: V2881&lt;br&gt;Frecuencia: L W V&lt;br&gt;Kilos Promedio Semanal: 3134&lt;br&gt;Latitud: -34.593722&lt;br&gt;Longitud: -70.989615</description>
+      <Point><coordinates>-70.989615,-34.593722,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.74">
+	<name>Sn Fdo Suroriente 2</name>
+	<description>Código: 15617&lt;br&gt;Local: Super 9 San Fdo Terminal&lt;br&gt;Calle: Rancagua 805&lt;br&gt;Población: San Fernando&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V2881&lt;br&gt;Transporte: V2881&lt;br&gt;Frecuencia: M J S&lt;br&gt;Kilos Promedio Semanal: 736&lt;br&gt;Latitud: -34.5849&lt;br&gt;Longitud: -70.982113</description>
+      <Point><coordinates>-70.982113,-34.5849,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.75">
+	<name>Sn Fdo Suroriente 2</name>
+	<description>Código: 25952&lt;br&gt;Local: Super 9 San Fdo Viejo&lt;br&gt;Calle: Rancagua 499 SanFdo&lt;br&gt;Población: San Fernando&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V2881&lt;br&gt;Transporte: V2881&lt;br&gt;Frecuencia: M J S&lt;br&gt;Kilos Promedio Semanal: 798&lt;br&gt;Latitud: -34.5895103&lt;br&gt;Longitud: -70.984385</description>
+      <Point><coordinates>-70.984385,-34.5895103,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.76">
+	<name>Sn Fdo Suroriente 2</name>
+	<description>Código: 25953&lt;br&gt;Local: Super 9 San Fdo Quechereguas&lt;br&gt;Calle: Quechereguas 1002  SanFdo.&lt;br&gt;Población: San Fernando&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V2881&lt;br&gt;Transporte: V2881&lt;br&gt;Frecuencia: M J S&lt;br&gt;Kilos Promedio Semanal: 775&lt;br&gt;Latitud: -34.5895611&lt;br&gt;Longitud: -70.9844593</description>
+      <Point><coordinates>-70.9844593,-34.5895611,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.77">
+	<name>Sn Fdo Suroriente 2</name>
+	<description>Código: 76112&lt;br&gt;Local: Unimarc San Fernando II&lt;br&gt;Calle: Av Manuel Rodriguez 954&lt;br&gt;Población: San Fernando&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V2881&lt;br&gt;Transporte: V2881&lt;br&gt;Frecuencia: M J S&lt;br&gt;Kilos Promedio Semanal: 2578&lt;br&gt;Latitud: -34.589113&lt;br&gt;Longitud: -70.984935</description>
+      <Point><coordinates>-70.984935,-34.589113,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.78">
+	<name>Sn Fdo Suroriente 2</name>
+	<description>Código: 3200104213&lt;br&gt;Local: Lider San Fernando&lt;br&gt;Calle: Avenida Bdo O'Higgins 450&lt;br&gt;Población: San Fernando&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V2881&lt;br&gt;Transporte: V2881&lt;br&gt;Frecuencia: M J S&lt;br&gt;Kilos Promedio Semanal: 8126&lt;br&gt;Latitud: -34.600678&lt;br&gt;Longitud: -70.985495</description>
+      <Point><coordinates>-70.985495,-34.600678,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.79">
+	<name>Sn Fdo Suroriente 2</name>
+	<description>Código: 3200105195&lt;br&gt;Local: Cugat San Fernando&lt;br&gt;Calle: Rancagua S/N Esq Las Animas&lt;br&gt;Población: San Fernando&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V2881&lt;br&gt;Transporte: V2881&lt;br&gt;Frecuencia: M J S&lt;br&gt;Kilos Promedio Semanal: 2796&lt;br&gt;Latitud: -34.58523&lt;br&gt;Longitud: -70.981567</description>
+      <Point><coordinates>-70.981567,-34.58523,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.80">
+	<name>Machalí Oriente (Nueva)</name>
+	<description>Código: 3200188932&lt;br&gt;Local: Lomi Machali&lt;br&gt;Calle: Avda San Juan 6 Dpto 3 y 4&lt;br&gt;Población: Machalí&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V4075&lt;br&gt;Transporte: V4075&lt;br&gt;Frecuencia: W S&lt;br&gt;Kilos Promedio Semanal: 0&lt;br&gt;Latitud: -34.1831058&lt;br&gt;Longitud: -70.6484193</description>
+      <Point><coordinates>-70.6484193,-34.1831058,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.81">
+	<name>Machalí Poniente</name>
+	<description>Código: 3200191018&lt;br&gt;Local: Yummy Machali&lt;br&gt;Calle: San Juan 804 Local 1 y 2&lt;br&gt;Población: Machalí&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V4075&lt;br&gt;Transporte: V4075&lt;br&gt;Frecuencia: M V&lt;br&gt;Kilos Promedio Semanal: 0&lt;br&gt;Latitud: -34.1732084&lt;br&gt;Longitud: -70.6882326</description>
+      <Point><coordinates>-70.6882326,-34.1732084,0</coordinates></Point>
+  </Placemark>
+  <Placemark id="clientes_supermercados_asignados_1.82">
+	<name>Rengo Centro</name>
+	<description>Código: 3200104201&lt;br&gt;Local: Bodega Acuenta Rengo&lt;br&gt;Calle: Manuel Solis 340&lt;br&gt;Población: Rengo&lt;br&gt;Tipo de cliente: Supermercados&lt;br&gt;Cod. Transporte: V3731&lt;br&gt;Transporte: V3731&lt;br&gt;Frecuencia: M J&lt;br&gt;Kilos Promedio Semanal: 0&lt;br&gt;Latitud: -34.404382&lt;br&gt;Longitud: -70.861656</description>
+      <Point><coordinates>-70.861656,-34.404382,0</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

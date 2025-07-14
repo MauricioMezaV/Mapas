@@ -1,49 +1,80 @@
 <!DOCTYPE html>
-
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Procesador de KML</title>
+    <title>Procesador ZR</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <header style="display: flex; align-items: center; padding: 16px;">
-        <img src="{{ url_for('static', filename='assets/logo.webp') }}" alt="Logo" style="height: 48px; margin-right: 16px;">
-        <span style="font-size: 1.5rem; font-weight: 600; font-family: 'Poppins', sans-serif;">Procesador de KML</span>
-    </header>
-    <div class="flex-container">
-        <!-- Input (izquierda) -->
-        <div class="input-panel">
-            <h3>Subir archivo KML</h3>
-            <p>Sube un archivo KML para procesarlo y descargar el resultado.</p>
-            {% if error %}
-                <div class="error">{{ error }}</div>
-            {% endif %}
-            <form method="POST" enctype="multipart/form-data">
-                <input type="file" name="kmlfile" accept=".kml" required>
-                <button type="submit">Procesar</button>
-            </form>
-        </div>
-        <!-- Output (derecha) -->
-        <div class="output-panel">
-            <h3>Resultados</h3>
-            {% if success %}
-                <div class="success">{{ success }}</div>
-                <ul>
-                    {% for file in files %}
-                    <li>
-                        <a href="{{ url_for('download_file', filename=file) }}">
-                            {{ file }}
-                            <i class="fa-solid fa-download" style="margin-left:10px;"></i>
-                        </a>
-                    </li>
-                    {% endfor %}
-                </ul>
-            {% else %}
-                <p>Cuando proceses un archivo, aquí aparecerán los enlaces de descarga.</p>
-            {% endif %}
+    <div class="main-content">
+        <!-- Header principal -->
+        <header class="main-header">
+            <img src="{{ url_for('static', filename='assets/logo.webp') }}" alt="Logo" class="header-logo">
+            <h1 class="header-title">Asignación automática de zonas de reparto</h1>
+        </header>
+        
+        <div class="flex-container">
+            <!-- Input (izquierda) -->
+            <div class="input-panel">
+                <h3>Subir archivo .KML</h3>
+                <p>Sube tu archivo .KML a procesar.</p>
+                {% if error %}
+                    <div class="error">{{ error }}</div>
+                {% endif %}
+                <form method="POST" enctype="multipart/form-data">
+                    <input type="file" name="kmlfile" accept=".kml" required>
+                    <button type="submit">Procesar</button>
+                </form>
+            </div>
+            
+            <!-- Output (derecha) -->
+            <div class="output-panel">
+                <h3>Resultados</h3>
+                {% if success %}
+                    <div class="success">{{ success }}</div>
+                    <ul>
+                        {% for file in files %}
+                        <li>
+                            <a href="{{ url_for('download_file', filename=file) }}">
+                                {{ file }}
+                            </a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                {% else %}
+                    <p>Esperando procesamiento...</p>
+                {% endif %}
+            </div>
         </div>
     </div>
+    
+    <!-- Loader overlay -->
+    <div id="loader-overlay">
+        <div class="loader"></div>
+        <span class="loader-text">Procesando archivo, por favor espera...</span>
+    </div>
+    
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-bottom">
+            <p class="footer-copyright">
+                Team Operaciones Suc. Rancagua, 2025 | 
+                Creado por <span class="highlight">Ignacio Olivares</span> y <span class="highlight">Mauricio Meza</span>
+            </p>
+        </div>
+    </footer>
+    
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const form = document.querySelector('form');
+        const loader = document.getElementById('loader-overlay');
+        if(form && loader) {
+            form.addEventListener('submit', function() {
+                loader.style.display = 'flex';
+            });
+        }
+    });
+    </script>
 </body>
 </html>
