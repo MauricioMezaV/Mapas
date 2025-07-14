@@ -7,7 +7,7 @@ import time
 
 app = Flask(__name__)
 app.secret_key = os.environ.get('SECRET_KEY', 'clave-insegura-solo-para-dev')
-app.config['MAX_CONTENT_LENGTH'] = 10 * 1024 * 1024  # 10 MB
+app.config['MAX_CONTENT_LENGTH'] = 150 * 1024 * 1024  # 150 MB
 
 UPLOAD_FOLDER = 'uploads'
 OUTPUTS_ROOT = 'outputs'
