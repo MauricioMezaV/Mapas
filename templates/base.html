@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Procesador ZR{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="main-content">
+        <!-- Header principal -->
+        <header class="main-header">
+            <img src="{{ url_for('static', filename='assets/logo.webp') }}" alt="Logo" class="header-logo">
+            <h1 class="header-title">Asignación automática de zonas de reparto</h1>
+            <nav class="header-nav">
+                <a href="/" class="header-link{% if active_tab == 'kml' or not active_tab %} active{% endif %}">Procesar .KML</a>
+                <a href="/processxlsx" class="header-link{% if active_tab == 'xlsx' %} active{% endif %}">Procesar .XLSX</a>
+            </nav>
+        </header>
+        {% block content %}{% endblock %}
+    </div>
+    <!-- Loader overlay -->
+    <div id="loader-overlay" style="display:none;">
+        <div class="loader"></div>
+        <span class="loader-text">Procesando archivo, por favor espera...</span>
+    </div>
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-bottom">
+            <p class="footer-copyright">
+                Team Operaciones Suc. Rancagua, 2025 | 
+                Creado por <span class="highlight">Pedro Torres</span>, <span class="highlight">Ignacio Olivares</span> y <span class="highlight">Mauricio Meza</span>
+            </p>
+        </div>
+    </footer>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const form = document.querySelector('form');
+        const loader = document.getElementById('loader-overlay');
+        if(form && loader) {
+            form.addEventListener('submit', function() {
+                loader.style.display = 'flex';
+            });
+        }
+    });
+    </script>
+</body>
+</html>

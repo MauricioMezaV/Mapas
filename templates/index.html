@@ -1,84 +1,36 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <title>Procesador ZR</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-    <div class="main-content">
-        <!-- Header principal -->
-        <header class="main-header">
-            <img src="{{ url_for('static', filename='assets/logo.webp') }}" alt="Logo" class="header-logo">
-            <h1 class="header-title">Asignación automática de zonas de reparto</h1>
-            <nav class="header-nav">
-                <a href="/" class="header-link{% if active_tab == 'kml' or not active_tab %} active{% endif %}">Procesar .KML</a>
-                <a href="/procesar_xlsx" class="header-link{% if active_tab == 'xlsx' %} active{% endif %}">Procesar .XLSX</a>
-            </nav>
-        </header>
-        
-        <div class="flex-container">
-            <!-- Input (izquierda) -->
-            <div class="input-panel">
-                <h3>Subir archivo .KML</h3>
-                <p>Sube tu archivo .KML a procesar.</p>
-                {% if error %}
-                    <div class="error">{{ error }}</div>
-                {% endif %}
-                <form method="POST" enctype="multipart/form-data">
-                    <input type="file" name="kmlfile" accept=".kml" required>
-                    <button type="submit">Procesar</button>
-                </form>
-            </div>
-            
-            <!-- Output (derecha) -->
-            <div class="output-panel">
-                <h3>Resultados</h3>
-                {% if success %}
-                    <div class="success">{{ success }}</div>
-                    <ul>
-                        {% for file in files %}
-                        <li>
-                            <a href="{{ url_for('download_file', filename=file) }}">
-                                {{ file }}
-                            </a>
-                        </li>
-                        {% endfor %}
-                    </ul>
-                {% else %}
-                    <p>Esperando procesamiento...</p>
-                {% endif %}
-            </div>
-        </div>
+{% extends "base.html" %}
+{% block title %}Procesar KML{% endblock %}
+{% block content %}
+<div class="flex-container">
+    <!-- Input (izquierda) -->
+    <div class="input-panel">
+        <h3>Subir archivo .KML</h3>
+        <p>Sube tu archivo .KML a procesar.</p>
+        {% if error %}
+            <div class="error">{{ error }}</div>
+        {% endif %}
+        <form method="POST" enctype="multipart/form-data">
+            <input type="file" name="kmlfile" accept=".kml" required>
+            <button type="submit">Procesar</button>
+        </form>
     </div>
-    
-    <!-- Loader overlay -->
-    <div id="loader-overlay">
-        <div class="loader"></div>
-        <span class="loader-text">Procesando archivo, por favor espera...</span>
+    <!-- Output (derecha) -->
+    <div class="output-panel">
+        <h3>Resultados</h3>
+        {% if success %}
+            <div class="success">{{ success }}</div>
+            <ul>
+                {% for file in files %}
+                <li>
+                    <a href="{{ url_for('download_file', filename=file) }}">
+                        {{ file }}
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>Esperando procesamiento...</p>
+        {% endif %}
     </div>
-    
-    <!-- Footer -->
-    <footer class="main-footer">
-        <div class="footer-bottom">
-            <p class="footer-copyright">
-                Team Operaciones Suc. Rancagua, 2025 | 
-                Creado por <span class="highlight">Pedro Torres</span>, <span class="highlight">Ignacio Olivares</span> y <span class="highlight">Mauricio Meza</span>
-            </p>
-        </div>
-    </footer>
-    
-    <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const form = document.querySelector('form');
-        const loader = document.getElementById('loader-overlay');
-        if(form && loader) {
-            form.addEventListener('submit', function() {
-                loader.style.display = 'flex';
-            });
-        }
-    });
-    </script>
-</body>
-</html>
+</div>
+{% endblock %}

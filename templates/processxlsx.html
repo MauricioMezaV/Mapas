@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% block title %}Procesar XLSX{% endblock %}
+{% block content %}
+<div class="flex-container">
+    <!-- Input (izquierda) -->
+    <div class="input-panel">
+        <h3>Subir archivos .XLSX</h3>
+        {% if error %}
+            <div class="error">{{ error }}</div>
+        {% endif %}
+        <form method="POST" enctype="multipart/form-data" style="margin-bottom: 1em;">
+            <label for="clientes_xlsx"><b>Archivo de clientes (.xlsx):</b></label><br>
+            <input type="file" id="clientes_xlsx" name="clientes_xlsx" accept=".xlsx"><br>
+            <button type="submit" name="procesar" value="clientes">Procesar clientes</button>
+        </form>
+        <form method="POST" enctype="multipart/form-data">
+            <label for="zonas_xlsx"><b>Archivo de zonas (.xlsx):</b></label><br>
+            <input type="file" id="zonas_xlsx" name="zonas_xlsx" accept=".xlsx"><br>
+            <button type="submit" name="procesar" value="zonas">Procesar zonas</button>
+        </form>
+    </div>
+    <!-- Output (derecha) -->
+    <div class="output-panel">
+        <h3>Resultados</h3>
+        {% if success %}
+            <div class="success">{{ success }}</div>
+            <div class="output-sections">
+                <div class="output-clientes">
+                    <h4>Archivos de clientes</h4>
+                    <ul>
+                        {% for file in files_clientes %}
+                        <li>
+                            <a href="{{ url_for('download_file', filename=file) }}">
+                                {{ file }}
+                            </a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="output-zonas">
+                    <h4>Archivos de zonas</h4>
+                    <ul>
+                        {% for file in files_zonas %}
+                        <li>
+                            <a href="{{ url_for('download_file', filename=file) }}">
+                                {{ file }}
+                            </a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        {% else %}
+            <p>Esperando procesamiento...</p>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

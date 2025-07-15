@@ -4,6 +4,7 @@ import shutil
 import uuid
 from kml_processor import process_kml
 import time
+from xlsx_processor import export_zonas_to_kml, export_clientes_to_kml
 
 app = Flask(__name__)
 app.secret_key = os.environ.get('SECRET_KEY', 'clave-insegura-solo-para-dev')
@@ -85,6 +86,68 @@ def download_file(filename):
     if filename not in os.listdir(output_dir):
         return redirect(url_for('index'))
     return send_from_directory(output_dir, filename, as_attachment=True)
+
+@app.route('/processxlsx', methods=['GET', 'POST'])
+def process_xlsx():
+    files_clientes = []
+    files_zonas = []
+    success = None
+    error = None
+
+    if request.method == 'POST':
+        clean_old_outputs(OUTPUTS_ROOT, horas=1)
+        procesar = request.form.get('procesar')
+        user_id = str(uuid.uuid4())
+        session['user_id'] = user_id
+        output_dir = os.path.join(OUTPUTS_ROOT, user_id)
+        if os.path.exists(output_dir):
+            shutil.rmtree(output_dir)
+        os.makedirs(output_dir, exist_ok=True)
+
+        def allowed_xlsx(filename):
+            return (
+                '.' in filename and 
+                filename.rsplit('.', 1)[1].lower() == 'xlsx' and 
+                filename.lower().endswith('.xlsx')
+            )
+
+        if procesar == "clientes":
+            clientes_file = request.files.get('clientes_xlsx')
+            if clientes_file and allowed_xlsx(clientes_file.filename):
+                clientes_filename = f"{user_id}_clientes.xlsx"
+                clientes_path = os.path.join(UPLOAD_FOLDER, clientes_filename)
+                clientes_file.save(clientes_path)
+                try:
+                    files_clientes = export_clientes_to_kml(clientes_path, output_dir)
+                    success = "Procesamiento de clientes completado. Descarga tus archivos:"
+                except Exception as e:
+                    error = f"Error procesando clientes: {str(e)}"
+            else:
+                error = "Debes subir un archivo de clientes .xlsx válido."
+        elif procesar == "zonas":
+            zonas_file = request.files.get('zonas_xlsx')
+            if zonas_file and allowed_xlsx(zonas_file.filename):
+                zonas_filename = f"{user_id}_zonas.xlsx"
+                zonas_path = os.path.join(UPLOAD_FOLDER, zonas_filename)
+                zonas_file.save(zonas_path)
+                try:
+                    files_zonas = export_zonas_to_kml(zonas_path, output_dir)
+                    success = "Procesamiento de zonas completado. Descarga tus archivos:"
+                except Exception as e:
+                    error = f"Error procesando zonas: {str(e)}"
+            else:
+                error = "Debes subir un archivo de zonas .xlsx válido."
+        else:
+            error = "Debes elegir qué archivo procesar."
+
+    return render_template(
+        'processxlsx.html',
+        active_tab='xlsx',
+        error=error,
+        success=success,
+        files_clientes=files_clientes,
+        files_zonas=files_zonas
+    )
 
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))
