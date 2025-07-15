@@ -13,6 +13,7 @@
             <input type="file" id="clientes_xlsx" name="clientes_xlsx" accept=".xlsx"><br>
             <button type="submit" name="procesar" value="clientes">Procesar clientes</button>
         </form>
+        <div class="divider"></div>
         <form method="POST" enctype="multipart/form-data">
             <label for="zonas_xlsx"><b>Archivo de zonas (.xlsx):</b></label><br>
             <input type="file" id="zonas_xlsx" name="zonas_xlsx" accept=".xlsx"><br>
@@ -37,6 +38,7 @@
                         {% endfor %}
                     </ul>
                 </div>
+                <div class="divider"></div>
                 <div class="output-zonas">
                     <h4>Archivos de zonas</h4>
                     <ul>
